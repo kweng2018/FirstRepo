@@ -1,0 +1,218 @@
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 1.2.8\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0609\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Andrew\Viper Burn In 2.0.0 0610\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0611 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.0 0627 Different colour for each Shelf\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.1 Different colour for each Shelf, Modify limit\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.2 Temp 23H with DC\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.3\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\Users\testeng.COMMSCOPE\Desktop\Viper Burn In 2.0.4\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Copy\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.4 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.5 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.0.7 - Dll Updated\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.0\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 Remove 9CH for AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\_D_\_Viper\BI\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper Burn In 2.1.1 For AMS (2.1.0)\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper RRH BI AMS\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.dll
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\bin\Debug\AndrewIntegratedProducts.USBFixture.pdb
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbprojResolveAssemblyReference.cache
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.Resources.resources
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.GenerateResource.Cache
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\DUTDriverFramework.vbproj.CoreCompileInputs.cache
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.dll
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.xml
+C:\TestApplications\Viper_BI\Viper BI DUPDriverFramework 2.14.0.0\DUTDriverFramework\obj\Debug\AndrewIntegratedProducts.DUTDriverFramework.pdb

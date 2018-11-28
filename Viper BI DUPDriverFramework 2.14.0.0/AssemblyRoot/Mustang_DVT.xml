@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="DVT Test"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_LTE_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>
+		<InstrumentID>SignalGenerator2</InstrumentID>
+		<InstrumentID>SpectrumAnalyzer1</InstrumentID>
+    <InstrumentID>SpectrumAnalyzer2</InstrumentID>
+		<InstrumentID>VectorSignalAnalyzer1</InstrumentID>
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+		<InstrumentID>ThermalChamber</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<SwID>RFSwitchBox1</SwID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="CHAMBER_CTRL" name="SET_CHAMBER@1ST_25C_2H">
+			<add key="Temperature" value="25"/>
+			<add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+			<add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="Analyzer2" value="SpectrumAnalyzer2"/>
+      <add key="SwitchBox" value="RFSwitchBox1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="TX_PWM" value="TX1_PMA,TX2_PMB"/>
+      <add key="TX_PSA" value="TX1_VSA,TX2_VSA2"/>
+      <add key="PSAOFFSET" value="PSA_OFFSET"/>
+      <add key="Span_MHz" value="25"/>
+      <add key="RBW_KHz" value="30"/>
+      <add key="InputAttenuator" value="12"/>
+      <add key="ReferenceLevel" value="40"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="FreqPointsTx" value="745,755"/>
+      <add key="FreqPointsRx" value="776,781,786"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TargetPower" value="46.5"/>
+			<add key="TX_ON" value="True"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="30"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+		</TestGroup>
+    <!--<TestGroup type="TEMP_SOAKING" name="TEMP_SOAK@FIRST_25C">
+      <add key="Temperature" value="25"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="240"/>
+    </TestGroup>-->
+		<TestGroup type="DVT" name="DVT_TEST@1ST_25C">
+			<add key="Temperature" value="25"/>
+			<add key="Chamber" value="ThermalChamber"/>
+			<add key="Process" value="SPEC,ACP,SEM,EVM,RSSI,SENS,ICS,NBB,ACS,BER,PST"/>
+			<!--<add key="Process" value=",,,,RSSI,SENS,ICS,NBB,ACS,,"/>-->
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="InterferSignalGenerator" value="SignalGenerator2"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="751"/>
+			<add key="RxFrequency" value="782"/>
+			<add key="TxPowerRxTest" value="46.5"/>
+			<add key="TXOn" value="True"/>
+			<add key="ReportPath" value="C:\DVT_Report\"/>
+			<add key="FTPPath" value="C:\ftproot\"/>
+			<add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="TestSignalEVM" value="C:\ftproot\lte_tm3_1_10m.cpr"/>
+			<add key="RxTestSignal" value="C:\TRDUWaveforms\UL_a1_3_i.bin"/>
+			<!--<add key="BERScriptPath" value="C:\ftproot\BLER_A1_3_hc.exe"/>-->
+      <add key="BERScriptPath" value="C:\Mustang_MATLAB_SCRIPTS\BLER_A1_3_hc.exe"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="TargetPowerRx" value="-36"/>
+			<add key="TargetPowerBER" value="-101.5"/>
+			<add key="TargetPowerEVM" value="46.5,45.5,40.5,36.5,29.5"/>
+			<add key="VSASetupFile" value="tm31_10MHz.set"/>
+			<add key="MXASetupFile" value="LTE820_10M_TM31_EVM.state"/>
+		</TestGroup>
+		<TestGroup type="CHAMBER_CTRL" name="SET_CHAMBER@-40C_3H">
+			<add key="Temperature" value="-40"/>
+			<add key="Chamber" value="ThermalChamber"/>
+			<add key="PSID" value="PowerSupply1"/>
+			<add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="Analyzer2" value="SpectrumAnalyzer2"/>
+      <add key="SwitchBox" value="RFSwitchBox1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="TX_PWM" value="TX1_PMA,TX2_PMB"/>
+      <add key="TX_PSA" value="TX1_VSA,TX2_VSA2"/>
+      <add key="PSAOFFSET" value="PSA_OFFSET"/>
+      <add key="Span_MHz" value="25"/>
+      <add key="RBW_KHz" value="30"/>
+      <add key="InputAttenuator" value="12"/>
+      <add key="ReferenceLevel" value="40"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="FreqPointsTx" value="745,755"/>
+      <add key="FreqPointsRx" value="776,781,786"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TX_ON" value="True"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="45"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+    </TestGroup>
+    <!--<TestGroup type="TEMP_SOAKING" name="TEMP_SOAK@-40C">
+      <add key="Temperature" value="-40"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="true"/>
+      <add key="WaitMinutes" value="240"/>
+    </TestGroup>-->
+    <TestGroup type="DVT" name="DVT_TEST@1ST_-40C">
+      <add key="Temperature" value="-40"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="Process" value="SPEC,ACP,SEM,EVM,RSSI,SENS,ICS,NBB,ACS,BER,PST"/>
+      <!--<add key="Process" value=",,,,RSSI,SENS,ICS,NBB,ACS,,"/>-->
+      <add key="PS" value="PowerSupply1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="SignalGenerator" value="SignalGenerator1"/>
+      <add key="InterferSignalGenerator" value="SignalGenerator2"/>
+      <add key="SwitchBox1" value="RFSwitchBox1"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TxPowerRxTest" value="46.5"/>
+      <add key="TXOn" value="True"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+      <add key="FTPPath" value="C:\ftproot\"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="TestSignalEVM" value="C:\ftproot\lte_tm3_1_10m.cpr"/>
+      <add key="RxTestSignal" value="C:\TRDUWaveforms\UL_a1_3_i.bin"/>
+      <!--<add key="BERScriptPath" value="C:\ftproot\BLER_A1_3_hc.exe"/>-->
+      <add key="BERScriptPath" value="C:\Mustang_MATLAB_SCRIPTS\BLER_A1_3_hc.exe"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TargetPowerRx" value="-36"/>
+      <add key="TargetPowerBER" value="-101.5"/>
+      <add key="TargetPowerEVM" value="46.5,45.5,40.5,36.5,29.5"/>
+      <add key="VSASetupFile" value="tm31_10MHz.set"/>
+      <add key="MXASetupFile" value="LTE820_10M_TM31_EVM.state"/>
+    </TestGroup>
+    <TestGroup type="TEMP_SOAKING" name="COLD_SOAK@-40C_2H">
+      <add key="Temperature" value="-40"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="False"/>
+      <add key="WaitMinutes" value="45"/>
+    </TestGroup>
+    <TestGroup type="DVT" name="DVT_TEST@2ND_-40C">
+      <add key="Temperature" value="-40"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="Process" value="SPEC,ACP,SEM,EVM,RSSI,SENS,ICS,NBB,ACS,BER,PST"/>
+      <!--<add key="Process" value=",,,,RSSI,SENS,ICS,NBB,ACS,,"/>-->
+      <add key="PS" value="PowerSupply1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="SignalGenerator" value="SignalGenerator1"/>
+      <add key="InterferSignalGenerator" value="SignalGenerator2"/>
+      <add key="SwitchBox1" value="RFSwitchBox1"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TxPowerRxTest" value="46.5"/>
+      <add key="TXOn" value="True"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+      <add key="FTPPath" value="C:\ftproot\"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="TestSignalEVM" value="C:\ftproot\lte_tm3_1_10m.cpr"/>
+      <add key="RxTestSignal" value="C:\TRDUWaveforms\UL_a1_3_i.bin"/>
+      <!--<add key="BERScriptPath" value="C:\ftproot\BLER_A1_3_hc.exe"/>-->
+      <add key="BERScriptPath" value="C:\Mustang_MATLAB_SCRIPTS\BLER_A1_3_hc.exe"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TargetPowerRx" value="-36"/>
+      <add key="TargetPowerBER" value="-101.5"/>
+      <add key="TargetPowerEVM" value="46.5,45.5,40.5,36.5,29.5"/>
+      <add key="VSASetupFile" value="tm31_10MHz.set"/>
+      <add key="MXASetupFile" value="LTE820_10M_TM31_EVM.state"/>
+    </TestGroup>
+    <TestGroup type="CHAMBER_CTRL" name="SET_CHAMBER@55C_3H">
+      <add key="Temperature" value="55"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="Analyzer2" value="SpectrumAnalyzer2"/>
+      <add key="SwitchBox" value="RFSwitchBox1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="TX_PWM" value="TX1_PMA,TX2_PMB"/>
+      <add key="TX_PSA" value="TX1_VSA,TX2_VSA2"/>
+      <add key="PSAOFFSET" value="PSA_OFFSET"/>
+      <add key="Span_MHz" value="25"/>
+      <add key="RBW_KHz" value="30"/>
+      <add key="InputAttenuator" value="12"/>
+      <add key="ReferenceLevel" value="40"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="FreqPointsTx" value="745,755"/>
+      <add key="FreqPointsRx" value="776,781,786"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TX_ON" value="True"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="45"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+		</TestGroup>
+    <!--<TestGroup type="TEMP_SOAKING" name="TEMP_SOAK@55C">
+      <add key="Temperature" value="55"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="true"/>
+      <add key="WaitMinutes" value="240"/>
+    </TestGroup>-->
+		<TestGroup type="DVT" name="DVT_TEST@55C">
+			<add key="Temperature" value="55"/>
+			<add key="Chamber" value="ThermalChamber"/>
+			<add key="Process" value="SPEC,ACP,SEM,EVM,RSSI,SENS,ICS,NBB,ACS,BER,PST"/>
+			<!--<add key="Process" value=",,,,RSSI,SENS,ICS,NBB,ACS,,"/>-->
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="InterferSignalGenerator" value="SignalGenerator2"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="751"/>
+			<add key="RxFrequency" value="782"/>
+			<add key="TxPowerRxTest" value="46.5"/>
+			<add key="TXOn" value="True"/>
+			<add key="ReportPath" value="C:\DVT_Report\"/>
+			<add key="FTPPath" value="C:\ftproot\"/>
+			<add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="TestSignalEVM" value="C:\ftproot\lte_tm3_1_10m.cpr"/>
+			<add key="RxTestSignal" value="C:\TRDUWaveforms\UL_a1_3_i.bin"/>
+      <!--<add key="BERScriptPath" value="C:\ftproot\BLER_A1_3_hc.exe"/>-->
+      <add key="BERScriptPath" value="C:\Mustang_MATLAB_SCRIPTS\BLER_A1_3_hc.exe"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="TargetPowerRx" value="-36"/>
+			<add key="TargetPowerBER" value="-101.5"/>
+			<add key="TargetPowerEVM" value="46.5,45.5,40.5,36.5,29.5"/>
+			<add key="VSASetupFile" value="tm31_10MHz.set"/>
+			<add key="MXASetupFile" value="LTE820_10M_TM31_EVM.state"/>
+		</TestGroup>
+    <TestGroup type="TEMP_SOAKING" name="HOT_SOAK@55C_0.5H">
+      <add key="Temperature" value="55"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="False"/>
+      <add key="WaitMinutes" value="30"/>
+    </TestGroup>
+    <TestGroup type="CHAMBER_CTRL" name="HOT_START@55C_0.5H">
+      <add key="Temperature" value="55"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="Analyzer2" value="SpectrumAnalyzer2"/>
+      <add key="SwitchBox" value="RFSwitchBox1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="TX_PWM" value="TX1_PMA,TX2_PMB"/>
+      <add key="TX_PSA" value="TX1_VSA,TX2_VSA2"/>
+      <add key="PSAOFFSET" value="PSA_OFFSET"/>
+      <add key="Span_MHz" value="25"/>
+      <add key="RBW_KHz" value="30"/>
+      <add key="InputAttenuator" value="12"/>
+      <add key="ReferenceLevel" value="40"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="FreqPointsTx" value="745,755"/>
+      <add key="FreqPointsRx" value="776,781,786"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TX_ON" value="True"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="30"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+    </TestGroup>
+    <TestGroup type="CHAMBER_CTRL" name="SET_CHAMBER@2ND_25C_2H">
+      <add key="Temperature" value="25"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="Analyzer2" value="SpectrumAnalyzer2"/>
+      <add key="SwitchBox" value="RFSwitchBox1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="TX_PWM" value="TX1_PMA,TX2_PMB"/>
+      <add key="TX_PSA" value="TX1_VSA,TX2_VSA2"/>
+      <add key="PSAOFFSET" value="PSA_OFFSET"/>
+      <add key="Span_MHz" value="25"/>
+      <add key="RBW_KHz" value="30"/>
+      <add key="InputAttenuator" value="12"/>
+      <add key="ReferenceLevel" value="40"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="FreqPointsTx" value="745,755"/>
+      <add key="FreqPointsRx" value="776,781,786"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TX_ON" value="True"/>
+      <add key="PowerOnInwait" value="True"/>
+      <add key="WaitMinutes" value="30"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+    </TestGroup>
+    <!--<TestGroup type="TEMP_SOAKING" name="TEMP_SOAK@SECOND_25C">
+      <add key="Temperature" value="25"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="PSID" value="PowerSupply1"/>
+      <add key="DigitalSource" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="PowerOnInwait" value="true"/>
+      <add key="WaitMinutes" value="240"/>
+    </TestGroup>-->
+    <TestGroup type="DVT" name="DVT_TEST@2ND_25C">
+      <add key="Temperature" value="25"/>
+      <add key="Chamber" value="ThermalChamber"/>
+      <add key="Process" value="SPEC,ACP,SEM,EVM,RSSI,SENS,ICS,NBB,ACS,BER,PST"/>
+      <!--<add key="Process" value=",,,,RSSI,SENS,ICS,NBB,ACS,,"/>-->
+      <add key="PS" value="PowerSupply1"/>
+      <add key="Analyzer" value="SpectrumAnalyzer1"/>
+      <add key="PowerMeter" value="PowerMeter1"/>
+      <add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+      <add key="SignalGenerator" value="SignalGenerator1"/>
+      <add key="InterferSignalGenerator" value="SignalGenerator2"/>
+      <add key="SwitchBox1" value="RFSwitchBox1"/>
+      <add key="TxFrequency" value="751"/>
+      <add key="RxFrequency" value="782"/>
+      <add key="TxPowerRxTest" value="46.5"/>
+      <add key="TXOn" value="True"/>
+      <add key="ReportPath" value="C:\DVT_Report\"/>
+      <add key="FTPPath" value="C:\ftproot\"/>
+      <add key="TestSignal" value="C:\ftproot\TM1_1_10_820_unfiltered.cpr"/>
+      <add key="TestSignalEVM" value="C:\ftproot\lte_tm3_1_10m.cpr"/>
+      <add key="RxTestSignal" value="C:\TRDUWaveforms\UL_a1_3_i.bin"/>
+      <!--<add key="BERScriptPath" value="C:\ftproot\BLER_A1_3_hc.exe"/>-->
+      <add key="BERScriptPath" value="C:\Mustang_MATLAB_SCRIPTS\BLER_A1_3_hc.exe"/>
+      <add key="TargetPower" value="46.5"/>
+      <add key="TargetPowerRx" value="-36"/>
+      <add key="TargetPowerBER" value="-101.5"/>
+      <add key="TargetPowerEVM" value="46.5,45.5,40.5,36.5,29.5"/>
+      <add key="VSASetupFile" value="tm31_10MHz.set"/>
+      <add key="MXASetupFile" value="LTE820_10M_TM31_EVM.state"/>
+    </TestGroup>	
+	</TestGroupList>
+</Sequence>

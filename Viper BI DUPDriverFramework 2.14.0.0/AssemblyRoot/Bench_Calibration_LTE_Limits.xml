@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Limits version="1.0.0" name="Bench_Calibration_TRDU_2100_Limits">
+   <Limit type="numeric">
+    <Name>MRK_TX_OUT_TO_VSA</Name>
+  	<UpperLimit>-39</UpperLimit>
+  	<LowerLimit>-84</LowerLimit>
+	<Unit>dB</Unit>
+  </Limit>
+  <Limit type="numeric">
+    <Name>MRK_TX_OUT_TO_PWM</Name>
+  	<UpperLimit>-45</UpperLimit>
+  	<LowerLimit>-60</LowerLimit>
+	<Unit>dB</Unit>
+  </Limit>
+  <Limit type="numeric">
+	  <Name>MRK_VSG_TO_RX</Name>
+	  <UpperLimit>-45</UpperLimit>
+	  <LowerLimit>-60</LowerLimit>
+	  <Unit>dB</Unit>
+  </Limit>
+  <Limit type="boolean">
+	<Name>PWM_CAL</Name>
+	<Limit>True</Limit>
+	<Unit>Bool</Unit>
+  </Limit>
+  <Limit type="numeric">
+	<Name>S11_CHECK</Name>
+	<UpperLimit>-30</UpperLimit>
+	<LowerLimit>-150</LowerLimit>
+	<Unit>dB</Unit>
+  </Limit>
+</Limits>

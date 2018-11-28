@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>NationalInstruments.Common</name>
+  </assembly>
+  <members>
+    <member name="T:NationalInstruments.Internal.BetaExpiredDlg">
+      <summary>
+            Summary description for Form2.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.BetaExpiredDlg.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.BetaExpiredDlg.InitializeComponent">
+      <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.Internal.EvalEndDlg">
+      <summary>
+            Summary description for Form2.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.EvalEndDlg.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.EvalEndDlg.InitializeComponent">
+      <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.Internal.EvalStartDlg">
+      <summary>
+            Summary description for Form2.
+            </summary>
+    </member>
+    <member name="F:NationalInstruments.Internal.EvalStartDlg.components">
+      <summary>
+            Required designer variable.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.EvalStartDlg.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.EvalStartDlg.InitializeComponent">
+      <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.Internal.UnlicensedDlg">
+      <summary>
+            Summary description for Form2.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.UnlicensedDlg.Dispose(System.Boolean)">
+      <summary>
+            Clean up any resources being used.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.Internal.UnlicensedDlg.InitializeComponent">
+      <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.ComplexDouble">
+      <summary>
+            Represents a complex number of type System.Double that is composed of a real part and an imaginary part of type.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.#ctor(System.Double,System.Double)">
+      <summary>
+            Initializes a new instance of the NationalInstruments.ComplexDouble class with the specified real and imaginary values.
+            </summary>
+      <param name="real">
+            The real part of the complex number.
+            </param>
+      <param name="imaginary">
+            The imaginary part of the complex number.
+            </param>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.FromDouble(System.Double)">
+      <summary>
+            Creates a NationalInstruments.ComplexDouble from a double real value.
+            </summary>
+      <param name="real">
+            The real part of the complex number.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with the real part specified by <paramref name="real"></paramref>
+            and a 0 imaginary part.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.FromPolar(System.Double,System.Double)">
+      <summary>
+            Returns a NationalInstruments.ComplexDouble that represents a complex
+            value with the specified magnitude and phase.
+            </summary>
+      <param name="magnitude">
+            The magnitude of the complex quantity.
+            </param>
+      <param name="phase">
+            The phase, in radians, of the complex quantity.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble that represents a complex value
+            with a magnitude of <paramref name="magnitude"></paramref> and a phase of 
+            <paramref name="phase"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Plus">
+      <summary>
+            Returns this instance of the NationalInstruments.ComplexDouble (unary plus).
+            </summary>
+      <returns>
+            This instance of the NationalInstruments.ComplexDouble.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_UnaryPlus(NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns the specified instance of the NationalInstruments.ComplexDouble (unary plus).
+            </summary>
+      <param name="c">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            The specified instance of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Negate">
+      <summary>
+            Returns a NationalInstruments.ComplexDouble with a value that is 
+            the negated value of this object (unary minus).
+            </summary>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that is the negated value 
+            of this object.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_UnaryNegation(NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns a NationalInstruments.ComplexDouble with a value that is the negative of the specified 
+            object (unary minus).
+            </summary>
+      <param name="c">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that is the negative of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Add(NationalInstruments.ComplexDouble)">
+      <summary>
+            Adds the value of the specified NationalInstruments.ComplexDouble to this object and returns a 
+            new NationalInstruments.ComplexDouble that represents the sum.
+            </summary>
+      <param name="c">
+            The NationalInstruments.ComplexDouble to add to this object.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble that represents the value of this 
+            object plus the value of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Addition(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Adds the values of two NationalInstruments.ComplexDouble objects.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that is the sum of 
+            <paramref name="c1"></paramref> and <paramref name="c2"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Subtract(NationalInstruments.ComplexDouble)">
+      <summary>
+            Subtracts the value of a NationalInstruments.ComplexDouble from this object and 
+            returns a new NationalInstruments.ComplexDouble that represents the difference.
+            </summary>
+      <param name="c">
+            The NationalInstruments.ComplexDouble to subtract from this object.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble that represents the value of this
+            object minus the value of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Subtraction(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Subtracts the value of one NationalInstruments.ComplexDouble from the value of another NationalInstruments.ComplexDouble.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that is the result of 
+            <paramref name="c1"></paramref> minus <paramref name="c2"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Multiply(NationalInstruments.ComplexDouble)">
+      <summary>
+            Multiplies a NationalInstruments.ComplexDouble with this object and 
+            returns a new NationalInstruments.ComplexDouble that represents the product.
+            </summary>
+      <param name="c">
+            The NationalInstruments.ComplexDouble to multiply with this object.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble that represents the value of this
+            object times the value of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Multiply(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Multiplies the values of two NationalInstruments.ComplexDouble objects.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that is the product of 
+            <paramref name="c1"></paramref> and <paramref name="c2"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Divide(NationalInstruments.ComplexDouble)">
+      <summary>
+            Divides this object by a NationalInstruments.ComplexDouble and returns
+            a new NationalInstruments.ComplexDouble that represents the result.
+            </summary>
+      <param name="c">
+            The NationalInstruments.ComplexDouble by which to divide this object.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble that represents the value of this
+            object divided by the value of <paramref name="c"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Division(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Divides the value of a NationalInstruments.ComplexDouble by the value of another NationalInstruments.ComplexDouble.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with a value that equal to is 
+            <paramref name="c1"></paramref> divided by <paramref name="c2"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Explicit(System.Double)~NationalInstruments.ComplexDouble">
+      <summary>
+            Creates a NationalInstruments.ComplexDouble from a double real value.
+            </summary>
+      <param name="real">
+            The real part of the complex number.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble with the real part specified by <paramref name="real"></paramref>
+            and a 0 imaginary part.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.GetHashCode">
+      <summary>
+            Returns a hash code for this object.
+            </summary>
+      <returns>
+            A 32-bit signed integer hash code.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Equality(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns if two NationalInstruments.ComplexDouble objects are 
+            equal.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>true if the values of <paramref name="c1"></paramref> and <paramref name="c2"></paramref>
+            are equal.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.op_Inequality(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns if two NationalInstruments.ComplexDouble objects are 
+            not equal.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>true if the values of <paramref name="c1"></paramref> and <paramref name="c2"></paramref>
+            are not equal.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Equals(NationalInstruments.ComplexDouble,NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns a value that indicates if two specified NationalInstruments.ComplexDouble objects are equal.
+            </summary>
+      <param name="c1">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <param name="c2">
+            A NationalInstruments.ComplexDouble.
+            </param>
+      <returns>true if <paramref name="c1"></paramref> and <paramref name="c2"></paramref> are equal.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Equals(System.Object)">
+      <summary>
+            Returns a value that indicates if this object is equal to the specified object.
+            </summary>
+      <param name="obj">
+            An object to compare with this object.
+            </param>
+      <returns>true if <paramref name="obj"></paramref> is a
+            NationalInstruments.ComplexDouble that represents the same value as this object.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Equals(NationalInstruments.ComplexDouble)">
+      <summary>
+            Returns a value that indicates if this object is equal to the specified 
+            NationalInstruments.ComplexDouble.
+            </summary>
+      <param name="c">
+            A NationalInstruments.ComplexDouble to compare with this object.
+            </param>
+      <returns>true if <paramref name="c"></paramref> represents the same value  
+            as this object.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ToString">
+      <summary>
+            Returns a string representation of the object.
+            </summary>
+      <returns>
+            A string representation of the object.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ToString(System.String,System.IFormatProvider)">
+      <summary>
+            Returns the System.String representation of the value of this object using the specified format and culture-specific 
+            formatting information.
+            </summary>
+      <param name="format">
+            	The System.String that specifies the format to use.  This value can be any of the numeric format 
+            strings that are defined for System.Double and is applied to the real and imaginary
+            parts of the complex number. If <paramref name="format"></paramref> is null,  the return value uses the default format.</param>
+      <param name="formatProvider">
+            The System.IFormatProvider to use to format the value.  This System.IFormatProvider is
+            applied to the real and imaginary parts of the number. If <paramref name="formatProvider"></paramref> is null, the return value uses
+            the numeric format information from the current locale setting of the operating system.
+            </param>
+      <returns>
+            A string representation of this object as specified by <paramref name="format"></paramref> and <paramref name="formatProvider"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ToString(System.String)">
+      <summary>
+            Returns the System.String representation of the value of this object using the specified format.
+            </summary>
+      <param name="format">
+            The System.String that specifies the format to use.  This value can be any of the numeric format 
+            strings that are defined for System.Double and is applied to the real and imaginary
+            parts of the complex number. If <paramref name="format"></paramref> is null, the return value uses the default format.
+            </param>
+      <returns>
+            A string representation of this object as specified by <paramref name="format"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ToString(System.IFormatProvider)">
+      <summary>
+            Returns the System.String representation of the value of this object using the specified culture-specific formatting information.
+            </summary>
+      <param name="formatProvider">
+            The System.IFormatProvider to use to format the value.  This System.IFormatProvider is
+            applied to the real and imaginary parts of the number. If <paramref name="formatProvider"></paramref> is null, the return value uses
+             the numeric format information from the current locale setting of the operating system.
+            </param>
+      <returns>
+            A string representation of this object as specified by <paramref name="formatProvider"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ComposeArray(System.Double[],System.Double[])">
+      <summary>
+            Creates an array of NationalInstruments.ComplexDouble objects from 
+            System.Double arrays that represent the real and imaginary parts of the complex numbers.
+            </summary>
+      <param name="realData">
+            The real parts of the complex numbers.
+            </param>
+      <param name="imaginaryData">
+            The imaginary parts of the complex numbers.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble array in which the real part of the
+            nth element is <paramref name="realData"></paramref>[n] and the imaginary part is 
+            <paramref name="imaginaryData"></paramref>[n].
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.ComposeArrayPolar(System.Double[],System.Double[])">
+      <summary>
+            Creates an array of NationalInstruments.ComplexDouble objects from 
+            System.Double arrays that represent the magnitudes and phases of the complex numbers.
+            </summary>
+      <param name="magnitudes">
+            The magnitudes of the complex numbers.
+            </param>
+      <param name="phases">
+            The phases of the complex numbers.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble array in which the magnitude of the
+            nth element is <paramref name="magnitudes"></paramref>[n]
+             and the phase is <paramref name="phases"></paramref>[n].
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.DecomposeArray(NationalInstruments.ComplexDouble[],System.Double[]@,System.Double[]@)">
+      <summary>Extracts the real and imaginary parts of a NationalInstruments.ComplexDouble array.
+            </summary>
+      <param name="complexData">
+            A NationalInstruments.ComplexDouble array.
+            </param>
+      <param name="realData">
+            Upon return, contains an array that consists of the real parts of <paramref name="complexData"></paramref>.
+            </param>
+      <param name="imaginaryData">
+            Upon return, contains an array that consists of the imaginary parts of <paramref name="complexData"></paramref>.
+            </param>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.DecomposeArrayPolar(NationalInstruments.ComplexDouble[],System.Double[]@,System.Double[]@)">
+      <summary>Extracts the magnitude and phase parts of a NationalInstruments.ComplexDouble array.
+            </summary>
+      <param name="complexData">
+            A NationalInstruments.ComplexDouble array.
+            </param>
+      <param name="magnitudes">
+            Upon return, contains an array that consists of the magnitudes of <paramref name="complexData"></paramref>.
+            </param>
+      <param name="phases">
+            Upon return, contains an array that consists of the phases of <paramref name="complexData"></paramref>.
+            </param>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.GetPhases(NationalInstruments.ComplexDouble[])">
+      <summary>
+            Extracts the phases of complex numbers from an array of NationalInstruments.ComplexDouble objects.
+            </summary>
+      <param name="complexData">
+            A NationalInstruments.ComplexDouble array.
+            </param>
+      <returns>
+            A System.Double array that contains the phases of the complex numbers in
+            <paramref name="complexData"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.GetMagnitudes(NationalInstruments.ComplexDouble[])">
+      <summary>
+            Extracts the magnitudes of complex numbers from an array of NationalInstruments.ComplexDouble objects.
+            </summary>
+      <param name="complexData">
+            A NationalInstruments.ComplexDouble array.
+            </param>
+      <returns>
+            A System.Double array that contains the magnitudes of the complex numbers in
+            <paramref name="complexData"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Parse(System.String)">
+      <summary>
+            Converts the string representation of a complex number to its
+            NationalInstruments.ComplexDouble equivalent.
+            </summary>
+      <param name="s">
+            A string contains a complex number to convert.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble equivalent to the complex numeric value
+            specified in <paramref name="s"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.Parse(System.String,System.IFormatProvider)">
+      <summary>
+            Converts the string representation of a complex number in a specified culture-specific format
+            to its NationalInstruments.ComplexDouble equivalent.
+            </summary>
+      <param name="s">
+            A string contains a complex number to convert.
+            </param>
+      <param name="provider">
+            An System.IFormatProvider that supplies culture-specific formatting information
+            about <paramref name="s"></paramref>.
+            </param>
+      <returns>
+            A NationalInstruments.ComplexDouble equivalent to the complex numeric value
+            specified in <paramref name="s"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.TryParse(System.String,NationalInstruments.ComplexDouble@)">
+      <summary>
+            Converts the string representation of a complex number to its
+            NationalInstruments.ComplexDouble equivalent.
+            </summary>
+      <param name="s">
+            A string contains a complex number to convert.
+            </param>
+      <param name="result">
+            A NationalInstruments.ComplexDouble equivalent to the complex numeric value
+            specified by <paramref name="s"></paramref>.  If the return value is false, <paramref name="result"></paramref>
+            is NationalInstruments.ComplexDouble.Zero.
+            </param>
+      <returns>true is <paramref name="s"></paramref> is converted successfully.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComplexDouble.TryParse(System.String,System.IFormatProvider,NationalInstruments.ComplexDouble@)">
+      <summary>
+            Converts the string representation of a complex number in a specified culture-specific format
+            to its NationalInstruments.ComplexDouble equivalent.
+            </summary>
+      <param name="s">
+            A string contains a complex number to convert.
+            </param>
+      <param name="provider">
+            An System.IFormatProvider that supplies culture-specific formatting information
+            about <paramref name="s"></paramref>.
+            </param>
+      <param name="result">
+            A NationalInstruments.ComplexDouble equivalent to the complex numeric value
+            specified by <paramref name="s"></paramref>.  If the return value is false, <paramref name="result"></paramref>
+            is NationalInstruments.ComplexDouble.Zero.
+            </param>
+      <returns>true is <paramref name="s"></paramref> is converted successfully.
+            </returns>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.Real">
+      <summary>
+            Gets or sets the real part of the NationalInstruments.ComplexDouble.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.Imaginary">
+      <summary>
+            Gets or sets the imaginary part of the NationalInstruments.ComplexDouble.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.Magnitude">
+      <summary>
+            Gets the magnitude of the NationalInstruments.ComplexDouble.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.Phase">
+      <summary>
+            Gets the phase of the NationalInstruments.ComplexDouble.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.ComplexConjugate">
+      <summary>
+            Gets the complex conjugate of the NationalInstruments.ComplexDouble.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComplexDouble.Zero">
+      <summary>
+            Gets the complex number 0 + 0i.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.ComponentBase">
+      <summary>
+            Provides a base implementation of the System.ComponentModel.IComponent interface for
+            Measurement Studio components.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.ISynchronizeCallbacks">
+      <summary>
+            Specifies that an object can use an System.ComponentModel.ISynchronizeInvoke implementation
+            to customize how events and callback delegates are invoked.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ISynchronizeCallbacks.SynchronizingObject">
+      <summary>
+            Gets or sets the object that marshals calls to event handlers and callbacks.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.#ctor">
+      <summary>
+            Initializes a new instance of the NationalInstruments.ComponentBase class.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.GetService(System.Type)">
+      <summary>
+            Returns an object that represents a service provided by the component or by its container.
+            </summary>
+      <param name="service">
+            A service provided by the component.
+            </param>
+      <returns>
+            An System.Object that represents a service provided by the component.  This value is
+            null if the component does not provide the specified service.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.Dispose(System.Boolean)">
+      <summary>
+            Releases the resources used by the NationalInstruments.ComponentBase.
+            </summary>
+      <param name="disposing">
+            If true, this method releases managed and unmanaged resources. If
+            false, this method releases
+            only unmanaged resources.
+            </param>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.RaiseExceptionIfDisposed">
+      <summary>
+            This member is obsolete. Use the NationalInstruments.ComponentBase.ThrowExceptionIfDisposed 
+            method to achieve the same functionality.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.ThrowExceptionIfDisposed">
+      <summary>
+            Throws an System.ObjectDisposedException if the component has been disposed.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.ComponentBase.RaiseEvent(System.Object,System.EventArgs)">
+      <summary>
+            Raises the event specified by an event key with the specified event arguments.
+            </summary>
+      <param name="eventKey">
+            The key of the event in the System.ComponentModel.Component.Events event handler list.
+            </param>
+      <param name="e">
+            The event arguments to use to raise the event.
+            </param>
+    </member>
+    <member name="P:NationalInstruments.ComponentBase.IsDisposed">
+      <summary>
+            Gets a value indicating whether the component has been disposed.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComponentBase.SynchronizingObject">
+      <summary>
+            Gets or sets the object that marshals calls to event handlers and callbacks.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.ComponentBase.Tag">
+      <summary>
+            Gets or sets the object that contains data about the component.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.DataConverter">
+      <summary>
+            Converts data from one data type to another data type.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.DataConverter.CanConvert(System.Object,System.Type)">
+      <summary>
+            Returns if an object can be converted to a specified type.
+            </summary>
+      <param name="source">
+            The object to check if a conversion is possible.
+            </param>
+      <param name="targetType">
+            The data type to check if <paramref name="source"></paramref> can be converted to.
+            </param>
+      <returns>true if <paramref name="source"></paramref> can be converted to the type specified by <paramref name="targetType"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.DataConverter.Convert(System.Object,System.Type)">
+      <summary>
+            Returns an object of a specified type that has a value that is equivalent to a specified object.
+            </summary>
+      <param name="source">
+            The object to convert the value of.
+            </param>
+      <param name="targetType">
+            The type to convert the value of <paramref name="source"></paramref> to.
+            </param>
+      <returns>
+            An object that is of the type specified by <paramref name="targetType"></paramref> and has a value that is equivalent to the value of <paramref name="source"></paramref>.
+            </returns>
+    </member>
+    <member name="T:NationalInstruments.EngineeringFormatInfo">
+      <summary>
+            Defines a custom formatter to format numeric values with engineering notation and International
+            System of Units (SI) prefixes and symbols.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.#ctor">
+      <summary>
+            Initializes a new instance of the NationalInstruments.EngineeringFormatInfo class.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.GetInstance(System.IFormatProvider)">
+      <summary>
+            Gets NationalInstruments.EngineeringFormatInfo associated with the specified
+            System.IFormatProvider.
+            </summary>
+      <param name="provider">
+            The System.IFormatProvider used to get NationalInstruments.EngineeringFormatInfo.
+            </param>
+      <returns>
+            The NationalInstruments.EngineeringFormatInfo associated with the specified
+            System.IFormatProvider.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.ReadOnly(NationalInstruments.EngineeringFormatInfo)">
+      <summary>
+            Returns a read-only copy of the specified NationalInstruments.EngineeringFormatInfo.
+            </summary>
+      <param name="efi">
+            The NationalInstruments.EngineeringFormatInfo from which to create a read-only copy.
+            </param>
+      <returns>
+            Attempting to perform an assignment to a property of a read-only
+            NationalInstruments.EngineeringFormatInfo causes an
+            System.InvalidOperationException.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.GetFormat(System.Type)">
+      <summary>
+            Gets an object of the specified type that provides a numeric formatting service.
+            </summary>
+      <param name="formatType">
+            The System.Type of the required formatting service.
+            </param>
+      <returns>
+            The current NationalInstruments.EngineeringFormatInfo, if <paramref name="formatType"></paramref>
+            is the same as the type of the current NationalInstruments.EngineeringFormatInfo;
+            otherwise, null.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.Clone">
+      <summary>
+            Creates a copy of NationalInstruments.EngineeringFormatInfo.
+            </summary>
+      <returns>
+            A new NationalInstruments.EngineeringFormatInfo copied from the original
+            NationalInstruments.EngineeringFormatInfo.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EngineeringFormatInfo.Format(System.String,System.Object,System.IFormatProvider)">
+      <summary>
+            Converts the value of a specified object to an equivalent string representation using
+            specified formatting information.
+            </summary>
+      <param name="format">
+            A format string containing formatting specifications.
+            </param>
+      <param name="arg">
+            An object to format.
+            </param>
+      <param name="formatProvider">
+            An System.IFormatProvider object that supplies format information about the
+            current instance.
+            </param>
+      <returns>
+            The string representation of the value of <paramref name="arg"></paramref>, formatted as specified
+            by <paramref name="format"></paramref> and <paramref name="formatProvider"></paramref>.
+            </returns>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.IsReadOnly">
+      <summary>
+            Gets a value that indicates if NationalInstruments.EngineeringFormatInfo
+            is read-only.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.YottaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1024.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.YottaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1024.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ZettaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1021.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ZettaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1021.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ExaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1018.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ExaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1018.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.PetaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1015.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.PetaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1015.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.TeraPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1012.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.TeraSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1012.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.GigaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 109.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.GigaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 109.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MegaPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 106.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MegaSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 106.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.KiloPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 103.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.KiloSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 103.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MilliPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 103.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MilliSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 103.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MicroPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 106.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.MicroSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 106.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.NanoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 109.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.NanoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 109.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.PicoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1012.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.PicoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1012.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.FemtoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1015.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.FemtoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1015.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.AttoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1018.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.AttoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1018.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ZeptoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1021.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.ZeptoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1021.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.YoctoPrefix">
+      <summary>
+            Gets or sets the SI prefix string to use for 1024.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.YoctoSymbol">
+      <summary>
+            Gets or sets the SI symbol string to use for 1024.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EngineeringFormatInfo.Default">
+      <summary>
+            Gets a read-only NationalInstruments.EngineeringFormatInfo whose properties are
+            set to the default values.
+            </summary>
+    </member>
+    <member name="T:NationalInstruments.EnumObject">
+      <summary>
+            Provides the base class for enumeration-like objects that are based on extensible types.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.#ctor">
+      <summary>
+            Initializes a new instance of the NationalInstruments.EnumObject class.
+            </summary>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.ToString">
+      <summary>
+            Override System.String.ToString.
+            </summary>
+      <returns>
+            A string representation of the object.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.CompareTo(System.Object)">
+      <summary>
+            Compares this instance to a specified object and returns an indication of their relative values.
+            </summary>
+      <param name="obj">
+            An object to compare, or null.
+            </param>
+      <returns>
+        <para>
+        </para>
+        <list type="table">
+        </list>
+      </returns>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.GetNames(System.Type)">
+      <summary>
+            Gets an array of the names of the values in a specified NationalInstruments.EnumObject.
+            </summary>
+      <param name="type">
+            An NationalInstruments.EnumObject type.
+            </param>
+      <returns>
+            A string array of the names of the default values that are provided by the
+            NationalInstruments.EnumObject.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.GetValues(System.Type)">
+      <summary>
+            Gets an array of the values in a specified NationalInstruments.EnumObject.
+            </summary>
+      <param name="type">
+            An NationalInstruments.EnumObject type.
+            </param>
+      <returns>
+            A System.Array of the default values that are provided by the
+            NationalInstruments.EnumObject.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.Parse(System.Type,System.String)">
+      <summary>
+            Converts the string representation of the name to a default value that is provided by the
+            NationalInstruments.EnumObject.
+            </summary>
+      <param name="type">
+            The System.Type of the NationalInstruments.EnumObject.
+            </param>
+      <param name="value">
+            A string that contains the name to convert.
+            </param>
+      <returns>
+            An object which has a type that is specified by <paramref name="type"></paramref> and has a value that is represented
+            by <paramref name="value"></paramref>.
+            </returns>
+    </member>
+    <member name="M:NationalInstruments.EnumObject.Parse(System.Type,System.String,System.Boolean)">
+      <summary>
+            Converts the string representation of the name to a default value that is provided by the
+            NationalInstruments.EnumObject. You can specify if the operation is case-sensitive.</summary>
+      <param name="type">
+            The System.Type of the NationalInstruments.EnumObject.
+            </param>
+      <param name="value">
+            A string that contains the name to convert.
+            </param>
+      <param name="ignoreCase">
+            Ignores case sensitivity if true.
+            </param>
+      <returns>
+            An object which has a type that is specified by <paramref name="type"></paramref> and has a value that is represented
+            by <paramref name="value"></paramref>.
+            </returns>
+    </member>
+    <member name="P:NationalInstruments.EnumObject.UnderlyingType">
+      <summary>
+            Gets the underlying type of an NationalInstruments.EnumObject value.
+            </summary>
+    </member>
+    <member name="P:NationalInstruments.EnumObject.Name">
+      <summary>
+            Gets the name of an NationalInstruments.EnumObject value.
+            </summary>
+    </member>
+  </members>
+</doc>

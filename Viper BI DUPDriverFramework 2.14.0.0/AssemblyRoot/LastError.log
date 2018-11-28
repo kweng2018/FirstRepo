@@ -1,0 +1,6 @@
+03/31/2011 - 11:08:23
+Error during the run of FinalTest sequence.
+Exception Details: Test aborted by user
+Source Error:  AndrewIntegratedProducts.SequencesFramework2
+Stack Trace:     at AndrewIntegratedProducts.SequencesFramework2.TestGroupsMustangDVT.Run() in D:\Share\Release_1.46\SequencesFramework\TestGroupsMustangDVT.vb:line 1026
+   at AndrewIntegratedProducts.SequencesFramework2.Sequence.Run() in D:\Share\Release_1.46\SequencesFramework\Sequence.vb:line 563

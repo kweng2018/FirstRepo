@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://homeappsdev/mts/burninservices/burninservice.asmx?wsdl" docRef="http://homeappsdev/mts/burninservices/burninservice.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://homeappsdev/mts/burninservices/burninservice.asmx" xmlns:q1="http://tempuri.org/" binding="q1:BurinInServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://homeappsdev/mts/burninservices/burninservice.asmx" xmlns:q2="http://tempuri.org/" binding="q2:BurinInServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

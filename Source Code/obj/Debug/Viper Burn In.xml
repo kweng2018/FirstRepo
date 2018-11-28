@@ -1,0 +1,92 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Viper Burn In
+</name>
+</assembly>
+<members>
+<member name="T:Viper_Burn_In.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Viper_Burn_In.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Viper_Burn_In.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Viper_Burn_In.CustomThread.DelegateProcess">
+ <summary>
+ Indicates the process that will be runned by the custom thread
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="P:Viper_Burn_In.CustomThread.ErrorStatus">
+ <summary>
+ return the status of the process run by the thread
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Viper_Burn_In.CustomThread.ErrorString">
+ <summary>
+ return the last error message
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Viper_Burn_In.CustomThread.ClearError">
+ <summary>
+ Clear error string and status 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Viper_Burn_In.CustomThread.IsRunning">
+ <summary>
+ Return true if the process of the thread is running
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Viper_Burn_In.KanbanSer.BurinInService">
+<remarks/>
+</member>
+<member name="M:Viper_Burn_In.KanbanSer.BurinInService.#ctor">
+<remarks/>
+</member>
+<member name="E:Viper_Burn_In.KanbanSer.BurinInService.SentBurnInDataCompleted">
+<remarks/>
+</member>
+<member name="M:Viper_Burn_In.KanbanSer.BurinInService.SentBurnInData(System.String)">
+<remarks/>
+</member>
+<member name="M:Viper_Burn_In.KanbanSer.BurinInService.SentBurnInDataAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Viper_Burn_In.KanbanSer.BurinInService.SentBurnInDataAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Viper_Burn_In.KanbanSer.BurinInService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Viper_Burn_In.KanbanSer.SentBurnInDataCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Viper_Burn_In.KanbanSer.SentBurnInDataCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Viper_Burn_In.KanbanSer.SentBurnInDataCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

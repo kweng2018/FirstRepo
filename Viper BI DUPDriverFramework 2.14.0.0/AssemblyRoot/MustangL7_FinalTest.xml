@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="FinalTest"></add>
+	<add key="LimitFile" value="MustangL7_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_MustangL7_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>
+		<InstrumentID>SpectrumAnalyzer1</InstrumentID>
+		<InstrumentID>VectorSignalAnalyzer1</InstrumentID>
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<SwID>RFSwitchBox1</SwID>
+		<PSCurrent>10</PSCurrent>
+		<PSVoltage>48</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="POWER_UP" name="POWERUP">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="PSCurrent" value="10"/>
+			<add key="PSVoltage" value="48"/>
+			<add key="NetCfgDefaultGateway" value="0.0.0.0"/>
+			<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY_VERIFY" name="INV_VERIFY">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="FunctionCode" value="TRDU-800L7"/>
+			<add key="KsNumber" value="KS24817L7"/>
+			<add key="KsVersion" value="1.1"/>
+			<add key="ComCode" value="849126735"/>
+			<add key="CLEI" value="???"/>
+			<add key="ECI" value="???"/>
+			<add key="Misc" value="CT^Px.y"/>
+			<add key="RfNumber" value="RF151007-1A"/>
+			<add key="Rf100Number" value="RF101007-1"/>
+			<add key="ChildLookUpTableScriptFile" value="c:\odc\LookupChildMustang.exe"/>
+			<add key="ChildRequestFile" value="c:\ChildRequest.txt"/>
+			<add key="ChildResponseFile" value="c:\ChildResponse.txt"/>
+			<add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+			<add key="Result" resultkey="BOARD_SERIAL_NUMBER" limitkey="BOARD_SERIAL_NUMBER" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_LNA" limitkey="APPARATUS_LNA" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_PA_PS" limitkey="APPARATUS_PA_PS" limitype="string"/>
+			<add key="Result" resultkey="UNIT_MISC" limitkey="UNIT_MISC" limitype="string"/>
+			<add key="Result" resultkey="UNIT_RF_NUMBER" limitkey="UNIT_RF_NUMBER" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="INTERFACE" name="INTERFACE">
+			<add key="PS" value="PowerSupply1"/>
+		</TestGroup>
+		<TestGroup type="TX_VERIFY" name="TX_VERIFY">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="801"/>
+			<add key="RxFrequency" value="842"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\lte_tm1_1_10m.cpr"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_CURR_FULL_RF" limitkey="PS_CURR_FULL_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_VOLT" limitkey="PS_VOLT" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0" limitkey="TX_ACP0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1" limitkey="TX_ACP1" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2" limitkey="TX_ACP2" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW_DPD" limitkey="TX_POW_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0_DPD" limitkey="TX_ACP0_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1_DPD" limitkey="TX_ACP1_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2_DPD" limitkey="TX_ACP2_DPD" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="TX_GAINFLATNESS" name="TX_FLAT">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="801"/>
+			<add key="RxFrequency" value="842"/>
+			<!--<add key="MarkFreqList" value="-4.755,-4.5,-3.525,-2.55,-1.575,-0.6,0.375,1.35,2.325,3.3,4.275,4.755"/>-->
+			<add key="MarkFreqList" value="-4.5,-3.525,-2.55,-1.575,-0.6,0.375,1.35,2.325,3.3,4.275"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\jsr_10MHz_sine.cpr"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="TX_EVM" name="TX_EVM">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="VectorSignalAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="FreqList" value="801"/>
+			<add key="RxFrequency" value="842"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\lte_tm3_1_10m.cpr"/>
+			<add key="TargetPower" value="46.5,29.5"/>
+			<add key="VSASetupFile" value="tm31_10MHz.set"/>
+			<add key="MXASetupFile" value="10MTM31.state"/>
+			<!--<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_CURR_FULL_RF" limitkey="PS_CURR_FULL_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_VOLT" limitkey="PS_VOLT" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW_EDGE" limitkey="TX_POW_EDGE" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0" limitkey="TX_ACP0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1" limitkey="TX_ACP1" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2" limitkey="TX_ACP2" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW_DPD" limitkey="TX_POW_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0_DPD" limitkey="TX_ACP0_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1_DPD" limitkey="TX_ACP1_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2_DPD" limitkey="TX_ACP2_DPD" limitype="numeric"/>-->
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+			<add key="Result" resultkey="TX_EVM_DATA_POW0" limitkey="TX_EVM_DATA_POW0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_EVM_DATA_POW1" limitkey="TX_EVM_DATA_POW1" limitype="numeric"/>
+			<add key="Result" resultkey="TX_EVM_OTHER_POW0" limitkey="TX_EVM_OTHER_POW0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_EVM_OTHER_POW1" limitkey="TX_EVM_OTHER_POW1" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="RX_VERIFY" name="RX_VERIFY">
+			<add key="PS" value="PowerSupply1"/>
+			<!--<add key="Analyzer" value="SpectrumAnalyzer1"/>-->
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="FrequencyRxBand" value="842"/>
+			<add key="FrequencyTxBand" value="801"/>
+			<add key="FrequencyTestSignal" value="841"/>
+			<add key="TargetPowerRx" value="-60.0"/>
+			<add key="TargetPowerTx" value="46.5"/>
+			<!--<add key="TestSignal" value="C:\TRDUWaveforms\lte10MHz.cpr"/>-->
+			<add key="Result" resultkey="RX_SIG_POW" limitkey="RX_SIG_POW" limitype="numeric"/>
+			<add key="Result" resultkey="RX_MASK" limitkey="RX_MASK" limitype="numeric"/>
+			<!--<add key="Result" resultkey="RX_LOOPBACK_POW" limitkey="RX_LOOPBACK_POW" limitype="numeric"/>-->
+		</TestGroup>
+		<TestGroup type="RX_REJECT" name="RX_REJECT">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="FrequencyRxBand" value="832"/>
+			<add key="FrequencyTxBand" value="801"/>
+			<add key="FrequencyTestSignal" value="834,830,828"/>
+			<add key="TargetPowerRx" value="-40.0"/>
+			<add key="TargetPowerTx" value="36.5"/>
+			<add key="Result" resultkey="RX_SIG_POW" limitkey="RX_SIG_POW" limitype="numeric"/>
+			<add key="Result" resultkey="RX_MASK" limitkey="RX_MASK" limitype="numeric"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

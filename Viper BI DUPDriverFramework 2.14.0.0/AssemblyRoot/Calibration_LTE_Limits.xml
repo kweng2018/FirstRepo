@@ -1,0 +1,353 @@
+﻿<?xml version="1.0"?>
+<Limits version="1.0.0" name="Final_Test_TRDU_ASSEMBLY_Limits">
+	<Limit type="numeric">
+		<Name>RSSI_60dBm</Name>
+		<UpperLimit>-59.25</UpperLimit>
+		<LowerLimit>-60.75</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RSSI_70dBm</Name>
+		<UpperLimit>-69.25</UpperLimit>
+		<LowerLimit>-70.75</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RSSI_50dBm</Name>
+		<UpperLimit>-49.25</UpperLimit>
+		<LowerLimit>-50.75</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RX_ATT</Name>
+		<UpperLimit>12</UpperLimit>
+		<LowerLimit>6</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RX_SIG_POW</Name>
+		<UpperLimit>-20</UpperLimit>
+		<LowerLimit>-26</LowerLimit>
+		<Unit>dBfs</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RX_MASK</Name>
+		<UpperLimit>-50</UpperLimit>
+		<LowerLimit>-99</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RX_LOOPBACK_POW</Name>
+		<UpperLimit>34</UpperLimit>
+		<LowerLimit>20</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>RSSI_NO_CAL</Name>
+		<UpperLimit>-50</UpperLimit>
+		<LowerLimit>-80</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ATT_CAL_POINT</Name>
+		<UpperLimit>26</UpperLimit>
+		<LowerLimit>2</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>FB_ATT_CAL_POINT</Name>
+		<UpperLimit>9</UpperLimit>
+		<LowerLimit>3</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<!--<Limit type="numeric">
+		<Name>VCA_CAL_POINT</Name>
+		<UpperLimit>1600</UpperLimit>
+		<LowerLimit>1800</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>-->
+	<Limit type="numeric">
+		<Name>TEMP_TX_CAL_POINT</Name>
+		<UpperLimit>40</UpperLimit>
+		<LowerLimit>20</LowerLimit>
+		<Unit>°C</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>IQ_OFFSET</Name>
+		<UpperLimit>4000</UpperLimit>
+		<LowerLimit>-4000</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>IQ_NULL</Name>
+		<UpperLimit>-12</UpperLimit>
+		<LowerLimit>-99</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>PS_CURR_NO_RF</Name>
+		<UpperLimit>6</UpperLimit>
+		<LowerLimit>5.4</LowerLimit>
+		<Unit>A</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>PS_CURR_FULL_RF</Name>
+		<UpperLimit>16.2</UpperLimit>
+		<LowerLimit>14.5</LowerLimit>
+		<Unit>A</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>PS_VOLT</Name>
+		<UpperLimit>24.5</UpperLimit>
+		<LowerLimit>23.5</LowerLimit>
+		<Unit>V</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_POW</Name>
+		<UpperLimit>47</UpperLimit>
+		<LowerLimit>46</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP0</Name>
+		<UpperLimit>47</UpperLimit>
+		<LowerLimit>46</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP1</Name>
+		<UpperLimit>-30</UpperLimit>
+		<LowerLimit>-50</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP2</Name>
+		<UpperLimit>-60</UpperLimit>
+		<LowerLimit>-80</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_POW_DPD</Name>
+		<UpperLimit>46.7</UpperLimit>
+		<LowerLimit>46.3</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP0_DPD</Name>
+		<UpperLimit>47</UpperLimit>
+		<LowerLimit>46</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP1_DPD</Name>
+		<UpperLimit>-45</UpperLimit>
+		<LowerLimit>-70</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_ACP2_DPD</Name>
+		<UpperLimit>-60</UpperLimit>
+		<LowerLimit>-80</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_EVM_DATA_POW0</Name>
+		<UpperLimit>7</UpperLimit>
+		<LowerLimit>3</LowerLimit>
+		<Unit>%</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_EVM_OTHER_POW0</Name>
+		<UpperLimit>7</UpperLimit>
+		<LowerLimit>3</LowerLimit>
+		<Unit>%</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_EVM_DATA_POW1</Name>
+		<UpperLimit>3</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>%</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TX_EVM_OTHER_POW1</Name>
+		<UpperLimit>10</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>%</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>TEMP_RX_CAL_POINT</Name>
+		<UpperLimit>40</UpperLimit>
+		<LowerLimit>20</LowerLimit>
+		<Unit>°C</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>FBTXQUO_CAL_POINT</Name>
+		<UpperLimit>1100</UpperLimit>
+		<LowerLimit>800</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>PNOM</Name>
+		<UpperLimit>46.8</UpperLimit>
+		<LowerLimit>46.2</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>PI_ATT_18DB</Name>
+		<UpperLimit>-17.5</UpperLimit>
+		<LowerLimit>-18.5</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>SW_ISOL_1950</Name>
+		<UpperLimit>999</UpperLimit>
+		<LowerLimit>40</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>SW_ISOL_RSSI_1950</Name>
+		<UpperLimit>-100</UpperLimit>
+		<LowerLimit>-999</LowerLimit>
+		<Unit>dBm</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>SW_DIFF_RSSI_1950</Name>
+		<UpperLimit>1.3</UpperLimit>
+		<LowerLimit>-1.3</LowerLimit>
+		<Unit>dB</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VCA</Name>
+		<UpperLimit>2000</UpperLimit>
+		<LowerLimit>1200</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VM_DELAY_CAL_POINT</Name>
+		<UpperLimit>20000</UpperLimit>
+		<LowerLimit>10000</LowerLimit>
+		<Unit>int</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>DPD_DELAY_CAL_POINT</Name>
+		<UpperLimit>4000</UpperLimit>
+		<LowerLimit>100</LowerLimit>
+		<Unit>int</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>COARSE_DELAY_CAL_POINT</Name>
+		<UpperLimit>135</UpperLimit>
+		<LowerLimit>100</LowerLimit>
+		<Unit>byte</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>FINE_DELAY_CAL_POINT</Name>
+		<UpperLimit>146</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>byte</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>DPD_DELAY_INT_CAL_POINT</Name>
+		<UpperLimit>256</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>byte</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>DPD_DELAY_FRAC_CAL_POINT</Name>
+		<UpperLimit>256</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>byte</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>FPGA_VER</Name>
+		<Limit>3.32</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>CPRIFPGA_VER</Name>
+		<Limit>1.3</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>DSP_VER</Name>
+		<Limit>1.1.012.0</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>BOOT_VER</Name>
+		<Limit>1.4.0.0</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>FPGA_TEST_VER</Name>
+		<Limit>3.32</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>CPRIFPGA_TEST_VER</Name>
+		<Limit>1.3</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>DSP_TEST_VER</Name>
+		<Limit>1.0.114.0</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>MAC_ADDRESS</Name>
+		<Limit>00:0D:EE:05:[8-9A-F][0-9A-F]:[0-9A-F][0-9A-F]</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>BOARD_SERIAL_NUMBER</Name>
+		<Limit>*</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>APPARATUS_LNA</Name>
+		<Limit>RF201607-1[GHJ]</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>APPARATUS_PA_PS</Name>
+		<Limit>RF201686-[12]A</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>UNIT_MISC</Name>
+		<Limit>CT [PV]#.#</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>UNIT_RF_NUMBER</Name>
+		<Limit>RF######*</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>PASS_FAIL</Name>
+		<Limit>PASS</Limit>
+		<Unit>PASS/FAIL</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VSWRCAL_A2D_1</Name>
+		<UpperLimit>4095</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VSWRCAL_RANGE</Name>
+		<UpperLimit>2000</UpperLimit>
+		<LowerLimit>200</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>WHATEVER</Name>
+		<Limit>*</Limit>
+		<Unit>str</Unit>
+	</Limit>
+	<Limit type="string">
+		<Name>INVENT_STATUS</Name>
+		<Limit>PASS</Limit>
+		<Unit>PASS/FAIL</Unit>
+	</Limit>
+</Limits>

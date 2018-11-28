@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AndrewIntegratedProducts.DUTDriverFramework
+</name>
+</assembly>
+<members>
+<member name="P:AndrewIntegratedProducts.DUTDriverFramework.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:AndrewIntegratedProducts.DUTDriverFramework.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:AndrewIntegratedProducts.DUTDriverFramework.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:AndrewIntegratedProducts.DUTDriverFramework.Dragon_Transceiver.GetCurrentFWAndFPGAFile">
+	<summary>
+ returns an array of two strings, 0 = FW File Name, 1 = FPGA File Name
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AndrewIntegratedProducts.DUTDriverFramework.Dragon_Transceiver.CustomerInventory">
+	<summary>
+ Inventory structure is a string array of 6 items:  
+   HWREF     value = HwRef   (16 bits value =&gt; 2 chars number in dec)    (it has different value if the frequency band os sub-modules changes)
+   RUNAME    value = RuName  (32 chars)         (ex: Example: MOD: RFHEAD850)
+   PECCODE   value = PecCode (16 chars)         (provided by RE manufacturer)
+   SN        value = SerialNumber (16 chars)    (provided by RE manufacturer)
+   MANUFDATE value = ManufactoryDate (4 chars)  (wwyy:  w = week, y = year)
+   HWRELEASE value = HwRelease (32 bits value =&gt; 4 chars number in dec)  (provided by RE manufacturer)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:AndrewIntegratedProducts.DUTDriverFramework.MUSTANG_Transceiver.GetCurrentFWAndFPGAFile">
+	<summary>
+ returns an array of two strings, 0 = FW File Name, 1 = FPGA File Name
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:AndrewIntegratedProducts.DUTDriverFramework.MUSTANG_Transceiver.CustomerInventory">
+	<summary>
+ Inventory structure is a string array of 6 items:  
+   HWREF     value = HwRef   (16 bits value =&gt; 2 chars number in dec)    (it has different value if the frequency band os sub-modules changes)
+   RUNAME    value = RuName  (32 chars)         (ex: Example: MOD: RFHEAD850)
+   PECCODE   value = PecCode (16 chars)         (provided by RE manufacturer)
+   SN        value = SerialNumber (16 chars)    (provided by RE manufacturer)
+   MANUFDATE value = ManufactoryDate (4 chars)  (wwyy:  w = week, y = year)
+   HWRELEASE value = HwRelease (32 bits value =&gt; 4 chars number in dec)  (provided by RE manufacturer)
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

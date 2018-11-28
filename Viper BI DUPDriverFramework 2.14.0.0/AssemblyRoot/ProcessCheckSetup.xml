@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ProcessCheckSetup>
+	<ProcessCheck>
+		<add key="Enable" value="false"/>
+		<add key="RequestFile" value="c:\pcrequest.txt"/>
+		<add key="ResponseFile" value="c:\pcresponse.txt"/>
+		<add key="Program" value="c:\odc\ProcessCheck.exe"/>
+	</ProcessCheck>
+	<DataCollection>
+		<add key="Enable" value="false"/>
+		<add key="Program" value="c:\odc\TestUpdate.Exe"/>
+		<add key="DefaultDataFile" value="c:\datafile.dcf"/>
+		<add key="DCFDestinationPath" value="None"/>
+		<add key="DCFArchivePath" value="None"/>
+		<add key="DCFDeleteAfterTransfer" value="false"/>
+	</DataCollection>
+</ProcessCheckSetup>

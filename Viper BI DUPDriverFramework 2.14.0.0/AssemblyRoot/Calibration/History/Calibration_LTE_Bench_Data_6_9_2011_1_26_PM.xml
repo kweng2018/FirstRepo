@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<CalibrationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CalDateFixture>2011-06-09T14:49:06.0100897+08:00</CalDateFixture>
+  <CalDatePowerSensorB>2011-06-09T14:36:58.7102213+08:00</CalDatePowerSensorB>
+  <CalDatePowerSensorA>2011-06-09T14:34:51.5975923+08:00</CalDatePowerSensorA>
+  <Paths />
+</CalibrationData>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Vswr_Calibration"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value=""></add>
+	<InstrumentList>
+	</InstrumentList>
+	<PreTestSetup>
+		<DefaultIP>192.168.99.50</DefaultIP>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="VSWR_MUSTANG_CAL4" name="VSWR_CAL">
+			<add key="FreqList" value="751"/>
+			<add key="OutputPower" value="46.5"/>
+			<add key="IdealLoads" value="0,-6,-9.5,-14"/>
+			<add key="RxFrequency" value="782"/>
+			<add key="Result" resultkey="VSWRCAL_A2D" limitkey="VSWRCAL_A2D_1" limitype="numeric"/>
+			<add key="Result" resultkey="VSWRCAL_RANGE" limitkey="VSWRCAL_RANGE" limitype="numeric"/>
+			<add key="Result" resultkey="LNA_EEPROM" limitkey="PASS_FAIL" limitype="string"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

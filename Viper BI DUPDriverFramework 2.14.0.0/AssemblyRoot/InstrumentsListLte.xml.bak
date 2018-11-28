@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Instruments>
+	<add type="AgilentPNA" address="192.168.0.2" ID="NetworkAnalyzer1"/>
+	<add type="AgilentPS" address="TCPIP::192.168.0.3::INSTR" ID="PowerSupply1"/>
+	<add type="AgilentE4417" address="GPIB0::13::INSTR" ID="PowerMeter1"/>
+	<!--<add type="AnritsuML2438A" address="GPIB0::14::INSTR" ID="PowerMeter1"/>-->
+	<!--<add type="AgilentU2000" address="USB0::2391::11032::MY47100309::0::INSTR,USB0::2391::11032::MY47100214::0::INSTR" ID="PowerMeter1"/>-->
+	<!--<add type="AndrewSC3Hydra" address="USB::SC3_HYDRA_1" ID="DigitalSignalGeneratorAndAnalyzer1"/>-->
+	<add type="AndrewSC35Hydra" address="192.168.0.50" ID="DigitalSignalGeneratorAndAnalyzer1"/>
+	<!--<add type="AgilentPSAE4445A" address="TCPIP::192.168.0.4::INSTR" ID="SpectrumAnalyzer1"/>-->
+	<add type="AgilentPSAE4445A" address="GPIB0::18::INSTR" ID="SpectrumAnalyzer1"/>
+	<!--<add type="AgilentEXA" address="TCPIP::192.168.0.4::INSTR" ID="SpectrumAnalyzer1"/>-->
+	<!--<add type="AgilentE4438C" address="TCPIP::192.168.0.21::INSTR" ID="SignalGenerator1"/>-->
+	<add type="AgilentE4438C" address="GPIB0::19::INSTR" ID="SignalGenerator1"/>
+	<add type="AndrewMIMOSwitchBox" address="MIMO*" ID="RFSwitchBox1"/>
+	<add type="AndrewHydraRRH2SwitchBox" address="RRH2*" ID="RFSwitchBox2"/>
+	<add type="MccI2C" address="COM2" ID="I2CAdapter"/>
+	<!--<add type="AgilentEXA" address="TCPIP::192.168.0.14::INSTR" ID="VectorSignalAnalyzer1"/>-->
+	<add type="Agilent89600" address="" ID="VectorSignalAnalyzer1"/>
+</Instruments>

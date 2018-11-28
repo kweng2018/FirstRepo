@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Calibration_LTE"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_LTE_Bench_Data.xml"></add>
+	<!--<add key="CalDataFile" value=""></add>-->
+	<InstrumentList>
+		<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>
+		<InstrumentID>SpectrumAnalyzer1</InstrumentID>
+		<InstrumentID>PowerSupply_24V</InstrumentID>
+		<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<!--<PowerSensor>A</PowerSensor>-->
+		<!--<PWMID>PowerMeter1</PWMID>-->
+		<PSID>PowerSupply_24V</PSID>
+		<SwID>RFSwitchBox1</SwID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="POWER_UP" name="POWERUP">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="PSCurrent" value="20"/>
+			<add key="PSVoltage" value="24"/>
+		</TestGroup>
+		<TestGroup type="OTRX_FW_UPDATE" name="FW_UPDATE">
+			<add key="FTPServer_IPAddress" value="192.168.99.1"/>
+			<add key="DSPFileName" value="LTE700_Mustang.1.0.0.0.1.bin"/>
+			<add key="FPGAFileName" value="mustang_sp_fpga_v3.20.bin"/>
+			<add key="CPRIFPGAFileName" value="tru_lte_cpri_fpga_v1.01_e.bin"/>
+			<add key="BOOTFileName" value="bootloader.1.4.0.0.1.bin"/>
+			<add key="PackageName" value="_BI_RE_TRDU_AN_V2_FV_1000.001"/>
+			<add key="SaveDefaultNetConfig" value="false"/>
+			<add key="DefaultIPAfterFWUpdate" value="192.168.255.33"/>
+			<add key="NetMaskSetup" value="255.255.255.0"/>
+			<add key="SWReset" value="false"/>
+			<add key="NumPowerSupply" value="1"/>
+			<add key="PSID1" value="PowerSupply_24V"/>
+			<add key="PSID1_Voltage" value="24"/>
+			<add key="PSID1_Current" value="5"/>
+			<add key="Result" resultkey="BOOT_CHECK" limitkey="BOOT_VER" limitype="string"/>
+			<add key="Result" resultkey="DSP_CHECK" limitkey="DSP_VER" limitype="string"/>
+			<add key="Result" resultkey="FPGA_CHECK" limitkey="FPGA_VER" limitype="string"/>
+			<add key="Result" resultkey="CPRIFPGA_CHECK" limitkey="CPRIFPGA_VER" limitype="string"/>
+			<add key="Result" resultkey="FILE" limitkey="FILE_REPORT" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY" name="INVENTORY">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="FunctionCode" value="700TRDU"/>
+			<add key="KsNumber" value="KS24817L1"/>
+			<add key="KsVersion" value="1.1"/>
+			<add key="ComCode" value="409102316"/>
+			<add key="CLEI" value="WDMAA00ARA"/>
+			<add key="ECI" value="459549"/>
+			<add key="Misc" value="VER^CT^P2.0"/>
+      <add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+			<add key="Result" resultkey="BOARD_SERIAL_NUMBER" limitkey="BOARD_SERIAL_NUMBER" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="TX_CALIBRATION" name="TX_CAL">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="Frequency" value="751"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+		    <add key="TargetPower" value="46.5"/>
+			<add key="Result" resultkey="TX_ATT" limitkey="TX_ATT_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="IQ_OFFSET" limitkey="IQ_OFFSET" limitype="numeric"/>
+			<add key="Result" resultkey="IQ_NULL" limitkey="IQ_NULL" limitype="numeric"/>
+			<!--<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_CURR_FULL_RF" limitkey="PS_CURR_FULL_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_VOLT" limitkey="PS_VOLT" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0" limitkey="TX_ACP0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1" limitkey="TX_ACP1" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2" limitkey="TX_ACP2" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW_DPD" limitkey="TX_POW_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0_DPD" limitkey="TX_ACP0_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1_DPD" limitkey="TX_ACP1_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2_DPD" limitkey="TX_ACP2_DPD" limitype="numeric"/>-->
+		</TestGroup>
+		<TestGroup type="TX_VERIFY" name="TX_VERIFY">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="Frequency" value="751"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+		    <add key="TargetPower" value="46.5"/>
+			<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_CURR_FULL_RF" limitkey="PS_CURR_FULL_RF" limitype="numeric"/>
+			<add key="Result" resultkey="PS_VOLT" limitkey="PS_VOLT" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0" limitkey="TX_ACP0" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1" limitkey="TX_ACP1" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2" limitkey="TX_ACP2" limitype="numeric"/>
+			<add key="Result" resultkey="TX_POW_DPD" limitkey="TX_POW_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP0_DPD" limitkey="TX_ACP0_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP1_DPD" limitkey="TX_ACP1_DPD" limitype="numeric"/>
+			<add key="Result" resultkey="TX_ACP2_DPD" limitkey="TX_ACP2_DPD" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="TX_GAINFLATNESS" name="TX_FLAT">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="751"/>
+			<add key="RxFrequency" value="782"/>
+			<!--<add key="MarkFreqList" value="-4.755,-4.5,-3.525,-2.55,-1.575,-0.6,0.375,1.35,2.325,3.3,4.275,4.755"/>-->
+			<add key="MarkFreqList" value="-4.5,-3.525,-2.55,-1.575,-0.6,0.375,1.35,2.325,3.3,4.275"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\jsr_10MHz_sine.cpr"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="Result" resultkey="TX_POW" limitkey="TX_POW" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="RX_CALIBRATION" name="RX_CAL">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+		</TestGroup>
+		<TestGroup type="RX_VERIFY" name="RX_VERIFY">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="FrequencyRxBand" value="782"/>
+			<add key="FrequencyTxBand" value="751"/>
+			<add key="FrequencyTestSignal" value="781"/>
+			<add key="TargetPowerRx" value="-60.0"/>
+			<add key="TargetPowerTx" value="46.5"/>
+			<!--<add key="TestSignal" value="C:\TRDUWaveforms\lte10MHz.cpr"/>-->
+			<add key="Result" resultkey="RX_SIG_POW" limitkey="RX_SIG_POW" limitype="numeric"/>
+			<add key="Result" resultkey="RX_MASK" limitkey="RX_MASK" limitype="numeric"/>
+			<add key="Result" resultkey="RX_LOOPBACK_POW" limitkey="RX_LOOPBACK_POW" limitype="numeric"/>
+		</TestGroup>
+
+		<!--<TestGroup type="RX_TRDU_CAL" name="RX_CAL">
+			<add key="PS" value="PowerSupplyTRDU_48V"/>
+			<add key="Source" value="SignalGenerator1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="SwitchBox2" value="RFSwitchBox2"/>
+			<add key="SwitchBoxPath1" value="SG1_TO_RRH_RX0"/>
+			<add key="SwitchBoxPath2" value="SG1_TO_RRH_RX1"/>
+			--><!--<add key="RxTestSignal" value="C:\TRDUWaveforms\Mob_UL_Jul28"/>--><!--
+			<add key="RxTestSignal" value=""/>
+			<add key="WaveformSampleFreqMHz" value="30.72"/>
+			<add key="PowerLevel" value="-60"/>
+			<add key="PowerLevelTollerance" value="0.27"/>
+			<add key="CalFreqList" value="1922.4,1927.5,1932.5,1937.5,1942.5,1947.5,1952.5,1957.5,1962.5,1967.5,1972.5,1977.6"/>
+			<add key="RSSICheckFreqList" value="1924,1955,1974"/>
+			<add key="RxCalVersion" value="1"/>
+			<add key="RxCalGainSlope" value="-0.081"/>
+			<add key="RxAttDefaultdB" value="8"/>
+			<add key="LNAAttDefaultdB" value="6.5"/>
+			<add key="Result" resultkey="ATT" limitkey="RX_ATT" limitype="numeric"/>
+			<add key="Result" resultkey="RSSI_BEFORE_CAL" limitkey="RSSI_NO_CAL" limitype="numeric"/>
+			<add key="Result" resultkey="TEMP" limitkey="TEMP_RX_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="RSSI" limitkey="RSSI_60dBm" limitype="numeric"/>
+			<add key="Result" resultkey="RSSI+10" limitkey="RSSI_50dBm" limitype="numeric"/>
+			<add key="Result" resultkey="RSSI-10" limitkey="RSSI_70dBm" limitype="numeric"/>
+			<add key="Result" resultkey="RX_PI_ATT" limitkey="PI_ATT_18DB" limitype="numeric"/>
+			<add key="Result" resultkey="SW_ISOL" limitkey="SW_ISOL_1950" limitype="numeric"/>
+			<add key="Result" resultkey="SW_ISOL_RSSI" limitkey="SW_ISOL_RSSI_1950" limitype="numeric"/>
+			<add key="Result" resultkey="SW_DIFF_RSSI" limitkey="SW_DIFF_RSSI_1950" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="TX_TRDU_CAL" name="TX_CAL">
+			<add key="PS" value="PowerSupplyTRDU_48V"/>
+			<add key="Analyzer" value=""/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="PowerSensor" value="A"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="SwitchBox2" value="RFSwitchBox2"/>
+			<add key="SwitchBoxPath1" value="TX_OUT_TO_PWM"/>
+			<add key="SwitchBoxPath2" value="TX_OUT_TO_PSA"/>
+			<add key="TestCase" value="1C_M"/>
+			<add key="Frequency" value="2140"/>
+			<add key="ExtraFreqPoints" value="2112.4,2117.4,2162.6,2167.6"/>
+			--><!--<add key="ExtraFreqPoints" value=""/>--><!--
+			<add key="TestSignal" value="C:\TRDUWaveforms\hydra_TM1_64_3C_Pnom.cpr"/>
+		    <add key="TargetPower" value="46.5"/>
+			<add key="MinStartPower" value="25"/>
+			<add key="TXAttAdjustTargetPower" value="41"/>
+			<add key="TXAttAdjustStartPoint" value="28"/>
+			<add key="FBTXQuoStartPoint" value="1000"/>
+			<add key="FBAttAdjustStartPoint" value="4"/>
+			<add key="VCARange" value="1750,1800"/>
+			<add key="DefaultVmDelay" value="18650"/>
+			<add key="DefaultDpdDelay" value="300"/>
+			--><!--<add key="DefaultVmDelay" value="15226"/>
+			<add key="DefaultDpdDelay" value="1071"/>--><!--
+			<add key="Result" resultkey="TX_ATT" limitkey="TX_ATT_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="FB_ATT" limitkey="FB_ATT_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="FBTXQUO" limitkey="FBTXQUO_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="VCA_OVER_FREQ" limitkey="VCA" limitype="numeric"/>
+			<add key="Result" resultkey="TEMP" limitkey="TEMP_TX_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="PWM" limitkey="PNOM" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="EQUAL_VM_TRDU_CAL" name="EQUAL_AND_VM_CAL">
+			<add key="PS" value="PowerSupplyTRDU_48V"/>
+			<add key="Analyzer" value=""/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="PowerSensor" value="A"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="SwitchBox2" value="RFSwitchBox2"/>
+			<add key="SwitchBoxPath1" value="TX_OUT_TO_PWM"/>
+			<add key="SwitchBoxPath2" value="TX_OUT_TO_PSA"/>
+			<add key="FreqCalPoint" value="2140"/>
+			<add key="TestSignalEqual" value="C:\TRDUWaveforms\hydra_TM1_64_3C_Pnom.cpr"/>
+			<add key="TestSignalVM" value="C:\TRDUWaveforms\hydra_TM1_64_3C_Pnom_-3dB.cpr"/>
+			<add key="DefaultCoarseDelay" value="126"/>
+			<add key="DefaultFineDelay" value="0"/>
+			<add key="VMProcessScriptPath" value="C:\MatlabScripts\VM_ScriptV1.1\TRDU_VM_Cal.exe"/>
+			<add key="EqualizerPoints" value="2110,2120,2130,2140,2150,2160,2170"/>
+			<add key="EqualProcessScriptPath" value="C:\MatlabScripts\Equalization_Script\OTBChannelEqualizer.exe"/>
+			<add key="AllBandEqual" value="true"/>
+			<add key="CheckEqual" value="false"/>
+			<add key="RefLevelEqualCheck" value="36"/>
+			<add key="InputAttenuatorEqualCheck" value="0"/>
+			<add key="EqualCheckPoints" value="2120,2145,2165"/>
+			--><!--<add key="EqualCheckPoints" value="2120,2125,2130,2135,2140,2145,2150,2155,2160,2165"/>--><!--
+			<add key="Result" resultkey="EQUAL_EEPROM" limitkey="PASS_FAIL" limitype="string"/>
+			<add key="Result" resultkey="VM_DELAY" limitkey="VM_DELAY_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="DPD_DELAY" limitkey="DPD_DELAY_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="COARSE_DELAY" limitkey="COARSE_DELAY_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="FINE_DELAY" limitkey="FINE_DELAY_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="DPD_DELAY_INT" limitkey="DPD_DELAY_INT_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="DPD_DELAY_FRAC" limitkey="DPD_DELAY_FRAC_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="VM_TEMP" limitkey="TEMP_TX_CAL_POINT" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="VSWR_TRDU_CAL" name="VSWR_CAL">
+			<add key="PS" value="PowerSupplyTRDU_48V"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox" value="RFSwitchBox2"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\hydra_TM1_64_3C_Pnom.cpr"/>
+			<add key="FreqList" value="2110,2132,2140,2152,2170"/>
+			<add key="OutputPower" value="46.5"/>
+			--><!--<add key="LoadSwitchChannelList" value="1,5,2,6"/>
+			<add key="LoadNames" value="LOAD_2DB,LOAD_6DB,LOAD_9.5DB,LOAD_14DB"/>--><!--
+			--><!--<add key="LoadSwitchChannelList" value="2,1,3,4"/>--><!--
+			<add key="LoadSwitchChannelList" value="4,1,2,3"/>
+			<add key="LoadNames" value="LOAD_2DB,LOAD_6DB,LOAD_10DB,LOAD_14DB"/>
+			<add key="IdealLoads" value="0,-6,-9.5,-14"/>
+			<add key="Result" resultkey="VSWRCAL_A2D" limitkey="VSWRCAL_A2D_1" limitype="numeric"/>
+			<add key="Result" resultkey="LNA_EEPROM" limitkey="PASS_FAIL" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="TRDU_INVENTORY" name="INVENTORY">
+			<add key="HW_REF" value="0x0610"/>
+			<add key="RuName" value="MOD: TRDU BAND01 45W"/>
+			<add key="APNCode" value="3JR21002AA"/>
+			<add key="DefaultHWRelease" value="AA01"/>
+			<add key="Prototype" value="false"/>
+			<add key="InventoryTRDU_SAP" value="RF150969-1A"/>
+			--><!--<add key="ChildLookUpTableScriptFile" value="c:\odc\LookupChildTRDU.exe"/>--><!--
+			<add key="ChildLookUpTableScriptFile" value=""/>
+			<add key="ChildRequestFile" value="c:\ChildRequest.txt"/>
+			<add key="ChildResponseFile" value="c:\ChildResponse.txt"/>
+			<add key="Enable_TRDUMatrix" value="false"/>
+			<add key="TRDU_Hostname_Offset" value="24"/>
+			<add key="Result" resultkey="CHECK_INVENT" limitkey="INVENT_STATUS" limitype="string"/>
+			<add key="Result" resultkey="INVENTORY_INFO" limitkey="WHATEVER" limitype="string"/>
+		</TestGroup>-->
+	</TestGroupList>
+</Sequence>

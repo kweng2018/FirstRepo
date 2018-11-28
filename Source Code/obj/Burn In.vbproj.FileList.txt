@@ -1,0 +1,36 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Burn In.vbproj.GenerateResource.Cache
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Burn In.vbproj.GenerateResource.Cache
+obj\Release\Viper Burn In.exe
+obj\Release\Viper Burn In.xml
+obj\Release\Viper Burn In.pdb
+bin\Debug\Viper Burn In.exe.manifest
+bin\Debug\Viper Burn In.application
+bin\Debug\Viper Burn In.exe
+bin\Debug\Viper Burn In.pdb
+bin\Debug\Viper Burn In.xml
+obj\Debug\Viper_Burn_In.frmVoltage.resources
+obj\Debug\Viper_Burn_In.EventTimer.resources
+obj\Debug\Viper_Burn_In.frmMain.resources
+obj\Debug\Viper_Burn_In.Resources.resources
+obj\Debug\Viper_Burn_In.frmParam.resources
+obj\Debug\Viper_Burn_In.frmProcessCheck.resources
+obj\Debug\Viper Burn In.exe.manifest
+obj\Debug\Viper Burn In.application
+obj\Debug\Viper Burn In.exe
+obj\Debug\Viper Burn In.xml
+obj\Debug\Viper Burn In.pdb
+bin\Release\Viper Burn In.exe.manifest
+bin\Release\Viper Burn In.application
+bin\Release\Viper Burn In.exe
+bin\Release\Viper Burn In.pdb
+bin\Release\Viper Burn In.xml
+obj\Release\Viper_Burn_In.frmVoltage.resources
+obj\Release\Viper_Burn_In.EventTimer.resources
+obj\Release\Viper_Burn_In.frmMain.resources
+obj\Release\Viper_Burn_In.Resources.resources
+obj\Release\Viper_Burn_In.frmParam.resources
+obj\Release\Viper_Burn_In.frmProcessCheck.resources
+obj\Release\Viper Burn In.exe.manifest
+obj\Release\Viper Burn In.application

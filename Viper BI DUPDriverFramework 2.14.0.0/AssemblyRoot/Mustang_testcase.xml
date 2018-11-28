@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Calibration_LTE"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_LTE_Bench_Data.xml"></add>
+	<InstrumentList>
+		<!--<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>-->
+		<!--<InstrumentID>SpectrumAnalyzer1</InstrumentID>-->
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<!--<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+		<InstrumentID>I2CAdapter</InstrumentID>-->
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<!--<SwID>RFSwitchBox1</SwID>-->
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="POWER_UP" name="POWERUP">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="PSCurrent" value="20"/>
+			<add key="PSVoltage" value="24"/>
+			<add key="NetCfgDefaultGateway" value="192.168.99.1"/>
+			<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

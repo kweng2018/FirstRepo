@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<SetupBench>
+	<add key="InstrumentFile" value="InstrumentsListLte.xml"/>
+	<add key="ShowInstrumentMessages" value="False"/>
+	<add key="ShowUUTMessages" value="True"/>
+	<add key="XSLTFileTestReport" value="ShowTestReport.xslt"/>
+	<add key="DCFFileTestReportEnabled" value="True"/>
+	<add key="TestSystemID" value="GS9200"/>
+	<add key="TestSystemLocation" value="ACOH"/>
+	<add key="LabTransferDCF" value="false"/>
+	<add key="ProcessCheck" value="false"/>
+	<Sequences>
+		<Sequence SeqType="Calibration" SeqFile="Bench_Calibration_RetLoss.xml"/>
+		<Sequence SeqType="Test" SeqFile="Mustang48_ReturnLoss.xml" UUTType="MUSTANG_48_700_UNIT" Process_ID="RETURN_LOSS"  ProductRevisions="01" DataFolder="C:\TestData\TRU_48_700_LTE"/>
+	</Sequences>
+</SetupBench>

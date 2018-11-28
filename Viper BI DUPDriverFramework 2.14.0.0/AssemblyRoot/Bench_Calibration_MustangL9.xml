@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Bench_Calibration_LTE"></add>
+	<add key="LimitFile" value="Bench_Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_MustangL9_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>
+		<InstrumentID>SpectrumAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<TestGroupList>
+		<TestGroup type="BENCH_CAL" name="PWM_CAL">
+			<add key="SwitchBoxPath" value="NA_ALONE"/>
+			<add key="SwitchBox1" value=""/>
+			<add key="SwitchBox2" value=""/>
+			<MeasurementList>
+				<Measurement type="PWM_CAL" name="SENSOR_A">
+					<add key="PWMID" value="PowerMeter1"/>
+					<add key="PowerSensor" value="A"/>
+					<add key="Result" resultkey="STATUS" limitkey="PWM_CAL" limitype="boolean"/>
+				</Measurement>
+				<Measurement type="PWM_CAL" name="SENSOR_B">
+					<add key="PWMID" value="PowerMeter1"/>
+					<add key="PowerSensor" value="B"/>
+					<add key="Result" resultkey="STATUS" limitkey="PWM_CAL" limitype="boolean"/>
+				</Measurement>
+			</MeasurementList>
+		</TestGroup>
+		<TestGroup type="BENCH_CAL_MIMO" name="PATH_CAL">
+			<add key="SwitchBox" value="RFSwitchBox1"/>
+			<add key="Source" value="SignalGenerator1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="FreqPointsTx" value="791,801"/>
+			<add key="FreqPointsRx" value="832,842"/>
+			<add key="Result" resultkey="ATT_TX_PM" limitkey="MRK_TX_OUT_TO_PWM" limitype="numeric"/>
+			<add key="Result" resultkey="ATT_TX_VSA" limitkey="MRK_TX_OUT_TO_VSA" limitype="numeric"/>
+			<add key="Result" resultkey="ATT_VSG_RX" limitkey="MRK_VSG_TO_RX" limitype="numeric"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

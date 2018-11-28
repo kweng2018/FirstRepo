@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Calibration_LTE"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_LTE_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerSupply1</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="MUSTANG_INVENTORY" name="INVENTORY">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="FunctionCode" value="TRDU-700L1"/>
+			<add key="KsNumber" value="KS24817L1"/>
+			<add key="KsVersion" value="1.1"/>
+			<add key="ComCode" value="409102316"/>
+			<add key="CLEI" value="WDMAA00ARA"/>
+			<add key="ECI" value="459549"/>
+			<add key="Misc" value="CT^P2.1"/>
+			<add key="RfNumber" value="RF150747-1A"/>
+			<add key="ChildLookUpTableScriptFile" value="c:\odc\LookupChildMustang.exe"/>
+			<add key="ChildRequestFile" value="c:\ChildRequest.txt"/>
+			<add key="ChildResponseFile" value="c:\ChildResponse.txt"/>
+			<add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+			<add key="Result" resultkey="BOARD_SERIAL_NUMBER" limitkey="BOARD_SERIAL_NUMBER" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_LNA" limitkey="APPARATUS_LNA" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_PA_PS" limitkey="APPARATUS_PA_PS" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY_DUMP" name="INV_SAVE">
+			<add key="PS" value="PowerSupply1"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

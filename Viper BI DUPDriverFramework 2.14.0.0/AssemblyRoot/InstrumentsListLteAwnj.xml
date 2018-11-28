@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Instruments>
+	<!--<add type="AgilentPS" address="TCPIP::192.168.0.3::INSTR" ID="PowerSupply_24V"/>-->
+	<!--<add type="AgilentE4417" address="GPIB0::13::INSTR" ID="PowerMeter1"/>-->
+	<!--<add type="AndrewSC3Hydra" address="USB::SC3_HYDRA_1" ID="DigitalSignalGeneratorAndAnalyzer1"/>-->
+	<!--<add type="AgilentPSAE4445A" address="TCPIP::192.168.0.4::INSTR" ID="SpectrumAnalyzer1"/>-->
+	<!--<add type="AgilentE4438C" address="TCPIP::192.168.0.21::INSTR" ID="SignalGenerator1"/>-->
+	<!--<add type="AndrewMIMOSwitchBox" address="MIMO*" ID="RFSwitchBox1"/>-->
+	<add type="AgilentPS" address="GPIB0::1::INSTR" ID="PowerSupply_24V"/>
+	<add type="AgilentE4417" address="GPIB0::14::INSTR" ID="PowerMeter1"/>
+	<add type="AndrewSC3Hydra" address="USB::SC3_HYDRA_1" ID="DigitalSignalGeneratorAndAnalyzer1"/>
+	<add type="AgilentPSAE4445A" address="GPIB0::18::INSTR" ID="SpectrumAnalyzer1"/>
+	<add type="AgilentE4438C" address="TCPIP::192.168.99.3::INSTR" ID="SignalGenerator1"/>
+	<add type="AndrewMIMOSwitchBox" address="MIMO*" ID="RFSwitchBox1"/>
+</Instruments>

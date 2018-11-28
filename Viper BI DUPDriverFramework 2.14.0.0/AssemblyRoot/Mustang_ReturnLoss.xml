@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="ReturnLoss"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value=""></add>
+	<!--<add key="CalDataFile" value="Calibration_RL_Bench_Data.xml"></add>-->
+	<InstrumentList>
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<InstrumentID>NetworkAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="OTRX_FW_UPDATE" name="FW_UPDATE">
+			<add key="FTPServer_IPAddress" value="192.168.99.1"/>
+			<add key="DSPFileName" value="_LTE700_Mustang.1.1.012.0.1.bin"/>
+			<add key="FPGAFileName" value="_mustang_sp_fpga_v3.32.bin"/>
+			<add key="CPRIFPGAFileName" value="_mustang_cpri_fpga_v1.03_e.bin"/>
+			<add key="BOOTFileName" value="bootloader.1.4.0.0.1.bin"/>
+			<add key="PackageName" value="__BI_RE_AN_TR0700_V1_FV_0011.012"/>
+			<add key="SaveDefaultNetConfig" value="false"/>
+			<add key="DefaultIPAfterFWUpdate" value="192.168.255.33"/>
+			<add key="NetMaskSetup" value="255.255.255.0"/>
+			<add key="SWReset" value="false"/>
+			<add key="NumPowerSupply" value="1"/>
+			<add key="PSID1" value="PowerSupply1"/>
+			<add key="PSID1_Voltage" value="24"/>
+			<add key="PSID1_Current" value="5"/>
+			<add key="Result" resultkey="BOOT_CHECK" limitkey="BOOT_VER" limitype="string"/>
+			<add key="Result" resultkey="DSP_CHECK" limitkey="DSP_VER" limitype="string"/>
+			<add key="Result" resultkey="FPGA_CHECK" limitkey="FPGA_VER" limitype="string"/>
+			<add key="Result" resultkey="CPRIFPGA_CHECK" limitkey="CPRIFPGA_VER" limitype="string"/>
+			<add key="Result" resultkey="FILE" limitkey="FILE_REPORT" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY_3GPP" name="INV_3GPP">
+			<add key="PS" value="PowerSupply1"/>
+		</TestGroup>
+		<TestGroup type="RETURNLOSS" name="RETURNLOSS">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="NAID" value="NetworkAnalyzer1"/>
+			<add key="NAStatusFileTx" value="NA_PORT1_MUSTANG_TX"/>
+			<add key="NAStatusFileRx" value="NA_PORT1_MUSTANG_RX"/>
+			<add key="InputCable" value="Tx1/Rx1,Tx2/Rx2"/>
+			<add key="FrequencyTx" value="751"/>
+			<add key="FrequencyRx" value="782"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="VnaPowerRx" value="-30"/>
+			<add key="VnaPowerTx" value="0"/>
+		</TestGroup>
+		<TestGroup type="PID_VERIFY" name="PID">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="RequestFile" value="ChildRequest.txt"/>
+			<add key="ResponseFile" value="ChildResponse.txt"/>
+			<add key="Executable" value="C:\TestApplications\ChildLookup\ChildLookupSim\bin\Debug\ChildLookupSim.exe"/>
+			<add key="RequestToken" value="MUSTANG_700_PID"/>
+			<add key="MacLanMatch" value="LAN_MAC\s*=\s*(\S+)"/>
+			<add key="MacCpriMatch" value="CPRI_MAC\s*=\s*(\S+)"/>
+			<add key="SapMatch" value="MUSTANG_700_PID_SAP\s*=\s*(\S+)"/>
+			<add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

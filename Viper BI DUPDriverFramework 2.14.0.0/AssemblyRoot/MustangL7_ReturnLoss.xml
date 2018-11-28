@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="ReturnLoss"></add>
+	<add key="LimitFile" value="MustangL7_Limits.xml"></add>
+	<add key="CalDataFile" value=""></add>
+	<!--<add key="CalDataFile" value="Calibration_RL_Bench_Data.xml"></add>-->
+	<InstrumentList>
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<InstrumentID>NetworkAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<PSCurrent>10</PSCurrent>
+		<PSVoltage>48</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="RETURNLOSS" name="RETURNLOSS">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="NAID" value="NetworkAnalyzer1"/>
+			<add key="NAStatusFileTx" value="NA_PORT1_MUSTANG_TX"/>
+			<add key="NAStatusFileRx" value="NA_PORT1_MUSTANG_RX"/>
+			<add key="InputCable" value="Tx1/Rx1,Tx2/Rx2"/>
+			<add key="FrequencyTx" value="801"/>
+			<add key="FrequencyRx" value="842"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="VnaPowerRx" value="-30"/>
+			<add key="VnaPowerTx" value="0"/>
+		</TestGroup>
+		<TestGroup type="PID_VERIFY" name="PID">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="RequestFile" value="ChildRequest.txt"/>
+			<add key="ResponseFile" value="ChildResponse.txt"/>
+			<add key="Executable" value="C:\TestApplications\ChildLookup\ChildLookupSim\bin\Debug\ChildLookupSim.exe"/>
+			<add key="RequestToken" value="MUSTANG_700_PID"/>
+			<add key="MacLanMatch" value="LAN_MAC\s*=\s*(\S+)"/>
+			<add key="MacCpriMatch" value="CPRI_MAC\s*=\s*(\S+)"/>
+			<add key="SapMatch" value="MUSTANG_700_PID_SAP\s*=\s*(\S+)"/>
+			<add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SentBurnInData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Lists" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SentBurnInDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SentBurnInDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SentBurnInDataSoapIn">
+    <wsdl:part name="parameters" element="tns:SentBurnInData" />
+  </wsdl:message>
+  <wsdl:message name="SentBurnInDataSoapOut">
+    <wsdl:part name="parameters" element="tns:SentBurnInDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="SentBurnInDataHttpGetIn">
+    <wsdl:part name="Lists" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SentBurnInDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SentBurnInDataHttpPostIn">
+    <wsdl:part name="Lists" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SentBurnInDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="BurinInServiceSoap">
+    <wsdl:operation name="SentBurnInData">
+      <wsdl:input message="tns:SentBurnInDataSoapIn" />
+      <wsdl:output message="tns:SentBurnInDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BurinInServiceHttpGet">
+    <wsdl:operation name="SentBurnInData">
+      <wsdl:input message="tns:SentBurnInDataHttpGetIn" />
+      <wsdl:output message="tns:SentBurnInDataHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="BurinInServiceHttpPost">
+    <wsdl:operation name="SentBurnInData">
+      <wsdl:input message="tns:SentBurnInDataHttpPostIn" />
+      <wsdl:output message="tns:SentBurnInDataHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BurinInServiceSoap" type="tns:BurinInServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SentBurnInData">
+      <soap:operation soapAction="http://tempuri.org/SentBurnInData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BurinInServiceSoap12" type="tns:BurinInServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SentBurnInData">
+      <soap12:operation soapAction="http://tempuri.org/SentBurnInData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BurinInServiceHttpGet" type="tns:BurinInServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SentBurnInData">
+      <http:operation location="/SentBurnInData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BurinInServiceHttpPost" type="tns:BurinInServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SentBurnInData">
+      <http:operation location="/SentBurnInData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BurinInService">
+    <wsdl:port name="BurinInServiceSoap" binding="tns:BurinInServiceSoap">
+      <soap:address location="http://homeappsdev/mts/burninservices/burninservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BurinInServiceSoap12" binding="tns:BurinInServiceSoap12">
+      <soap12:address location="http://homeappsdev/mts/burninservices/burninservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BurinInServiceHttpGet" binding="tns:BurinInServiceHttpGet">
+      <http:address location="http://homeappsdev/mts/burninservices/burninservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="BurinInServiceHttpPost" binding="tns:BurinInServiceHttpPost">
+      <http:address location="http://homeappsdev/mts/burninservices/burninservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<SetupBench>
+	<add key="InstrumentFile" value="InstrumentsListLte.xml"/>
+	<add key="ShowInstrumentMessages" value="False"/>
+	<add key="ShowUUTMessages" value="True"/>
+	<add key="XSLTFileTestReport" value="ShowTestReport.xslt"/>
+	<add key="DCFFileTestReportEnabled" value="True"/>
+	<add key="TestSystemID" value="GS9200"/>
+	<add key="TestSystemLocation" value="ACOH"/>
+	<add key="LabTransferDCF" value="false"/>
+	<add key="ProcessCheck" value="false"/>
+	<Sequences>
+		<Sequence SeqType="Calibration" SeqFile="Bench_Calibration_Mustang_1E.xml"/>
+		<Sequence SeqType="Test" SeqFile="Mustang48_Calibration.xml" UUTType="MUSTANG_48_700_UNIT" Process_ID="CALIBRATION"  ProductRevisions="01" DataFolder="C:\TestData\TRU_48_700_LTE"/>
+		<!--<Sequence SeqType="Test" SeqFile="Mustang48_FinalTest.xml" UUTType="MUSTANG_48_700_UNIT" Process_ID="FINAL_TEST"  ProductRevisions="01" DataFolder="C:\TestData\TRU_48_700_LTE"/>-->
+	</Sequences>
+</SetupBench>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://homeappsdev/mts/burninservices/burninservice.asmx?disco" filename="burninservice.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://homeappsdev/mts/burninservices/burninservice.asmx?wsdl" filename="burninservice.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

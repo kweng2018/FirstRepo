@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Calibration_LTE"></add>
+	<add key="LimitFile" value="Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_LTE_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerMeter1</InstrumentID>
+		<InstrumentID>RFSwitchBox1</InstrumentID>
+		<InstrumentID>SignalGenerator1</InstrumentID>
+		<!--<InstrumentID>SpectrumAnalyzer1</InstrumentID>-->
+		<InstrumentID>PowerSupply1</InstrumentID>
+		<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+		<!--<InstrumentID>I2CAdapter</InstrumentID>-->
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply1</PSID>
+		<SwID>RFSwitchBox1</SwID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="OTRX_FW_UPDATE2" name="FW_TESTLOAD">
+			<add key="FTPServer_IPAddress" value="192.168.99.1"/>
+			<add key="DSPFileName" value="_LTE700_Mustang.1.0.114.0.1.bin"/>
+			<add key="FPGAFileName" value="_mustang_sp_fpga_v3.32.bin"/>
+			<add key="CPRIFPGAFileName" value="_mustang_cpri_fpga_v1.03_e.bin"/>
+			<add key="BOOTFileName" value="bootloader.1.4.0.0.1.bin"/>
+			<add key="PackageName" value="__BI_RE_AN_TR0700_V1_FV_0010.114"/>
+			<add key="VerifyOnly" value="False"/>
+			<add key="DownloadBothImages" value="False"/>
+			<add key="SaveDefaultNetConfig" value="false"/>
+			<add key="DefaultIPAfterFWUpdate" value="192.168.255.33"/>
+			<add key="NetMaskSetup" value="255.255.255.0"/>
+			<add key="SWReset" value="false"/>
+			<add key="NumPowerSupply" value="1"/>
+			<add key="PSID1" value="PowerSupply1"/>
+			<add key="PSID1_Voltage" value="24"/>
+			<add key="PSID1_Current" value="5"/>
+			<add key="Result" resultkey="BOOT_CHECK" limitkey="BOOT_VER" limitype="string"/>
+			<add key="Result" resultkey="DSP_CHECK" limitkey="DSP_TEST_VER" limitype="string"/>
+			<add key="Result" resultkey="FPGA_CHECK" limitkey="FPGA_TEST_VER" limitype="string"/>
+			<add key="Result" resultkey="CPRIFPGA_CHECK" limitkey="CPRIFPGA_TEST_VER" limitype="string"/>
+			<add key="Result" resultkey="FILE" limitkey="FILE_REPORT" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY" name="INVENTORY">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="FunctionCode" value="TRDU-700L1"/>
+			<add key="KsNumber" value="KS24817L1"/>
+			<add key="KsVersion" value="1.1"/>
+			<add key="ComCode" value="409102316"/>
+			<add key="CLEI" value="WDMAA00ARA"/>
+			<add key="ECI" value="459549"/>
+			<add key="Misc" value="CT^P2.1"/>
+			<add key="RfNumber" value="RF150747-1A"/>
+			<add key="ChildLookUpTableScriptFile" value="c:\odc\LookupChildMustang.exe"/>
+			<add key="ChildRequestFile" value="c:\ChildRequest.txt"/>
+			<add key="ChildResponseFile" value="c:\ChildResponse.txt"/>
+			<add key="Result" resultkey="MAC_ADDRESS" limitkey="MAC_ADDRESS" limitype="string"/>
+			<add key="Result" resultkey="BOARD_SERIAL_NUMBER" limitkey="BOARD_SERIAL_NUMBER" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_LNA" limitkey="APPARATUS_LNA" limitype="string"/>
+			<add key="Result" resultkey="APPARATUS_PA_PS" limitkey="APPARATUS_PA_PS" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="POWER_UP" name="POWERUP">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="PSCurrent" value="20"/>
+			<add key="PSVoltage" value="24"/>
+			<add key="NetCfgDefaultGateway" value="192.168.99.1"/>
+			<add key="Result" resultkey="PS_CURR_NO_RF" limitkey="PS_CURR_NO_RF" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="INTERFACE" name="INTERFACE">
+			<add key="PS" value="PowerSupply1"/>
+		</TestGroup>
+		<!--<TestGroup type="MUSTANG_I2C" name="I2C">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="I2C" value="I2CAdapter"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_AISG" name="AISG">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="RS485" value="COM1"/>
+		</TestGroup>-->
+		<TestGroup type="TX_CALIBRATION" name="TX_CAL">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Analyzer" value="SpectrumAnalyzer1"/>
+			<add key="PowerMeter" value="PowerMeter1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+			<add key="TxFrequency" value="751"/>
+			<add key="RxFrequency" value="782"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="DoPeakingGateCal" value="True"/>
+			<add key="TargetPeakingCurr" value="1.2"/>
+			<add key="Result" resultkey="TX_ATT" limitkey="TX_ATT_CAL_POINT" limitype="numeric"/>
+			<add key="Result" resultkey="IQ_OFFSET" limitkey="IQ_OFFSET" limitype="numeric"/>
+			<add key="Result" resultkey="IQ_NULL" limitkey="IQ_NULL" limitype="numeric"/>
+			<add key="Result" resultkey="PS_CURR_FULL_RF" limitkey="PS_CURR_FULL_RF" limitype="numeric"/>
+		</TestGroup>
+		<TestGroup type="RX_CALIBRATION" name="RX_CAL">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="SignalGenerator" value="SignalGenerator1"/>
+			<add key="SwitchBox1" value="RFSwitchBox1"/>
+		</TestGroup>
+		<TestGroup type="VSWR_MUSTANG_CAL" name="VSWR_CAL">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="FreqList" value="751"/>
+			<add key="OutputPower" value="46.5"/>
+			<add key="IdealLoads" value="0,-6,-9.5,-14"/>
+			<add key="RxFrequency" value="782"/>
+			<add key="Result" resultkey="VSWRCAL_A2D" limitkey="VSWRCAL_A2D_1" limitype="numeric"/>
+			<add key="Result" resultkey="VSWRCAL_RANGE" limitkey="VSWRCAL_RANGE" limitype="numeric"/>
+			<add key="Result" resultkey="LNA_EEPROM" limitkey="PASS_FAIL" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="TXRX_VERIFICATION" name="TXRX">
+			<add key="PS" value="PowerSupply1"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="TargetPower" value="46.5"/>
+			<add key="FrequencyRx" value="782"/>
+			<add key="FrequencyTx" value="751"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_INVENTORY_DUMP" name="INV_SAVE">
+			<add key="PS" value="PowerSupply1"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

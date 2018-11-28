@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Sequence>
+	<add key="SequenceName" value="Bench_Calibration_LTE"></add>
+	<add key="LimitFile" value="Bench_Calibration_LTE_Limits.xml"></add>
+	<add key="CalDataFile" value="Calibration_RL_Bench_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>NetworkAnalyzer1</InstrumentID>
+	</InstrumentList>
+	<TestGroupList>
+		<TestGroup type="BENCH_CAL" name="NA_ALONE_CAL">
+			<add key="SwitchBoxPath" value="NA_ALONE"/>
+			<add key="SwitchBox1" value=""/>
+			<add key="SwitchBox2" value=""/>
+			<MeasurementList>
+				<Measurement type="NETWORK_CAL" name="ATT">
+					<add key="NAID" value="NetworkAnalyzer1"/>
+					<add key="CalType" value="Port1"/>
+					<add key="NANumPoints" value="201"/>
+					<add key="CalKit" value="NTYPE85032F"/>
+					<add key="NAIFBandwidthKHz" value="1"/>
+					<add key="NASweepTime" value="1"/>
+					<add key="NAStartFrequency" value="741"/>
+					<add key="NAStopFrequency" value="761"/>
+					<add key="NAPowerPort1" value="0"/>
+					<add key="NAStatusFile" value="NA_PORT1_MUSTANG_TX"/>
+					<add key="InputCable" value="NA Port 1"/>
+					<add key="OutputCable" value="NA Port 2"/>
+					<add key="Result" resultkey="THR_MKR" limitkey="S11_CHECK" limitype="numeric"/>
+				</Measurement>
+				<Measurement type="NETWORK_CAL" name="ATT2">
+					<add key="NAID" value="NetworkAnalyzer1"/>
+					<add key="CalType" value="Port1"/>
+					<add key="NANumPoints" value="201"/>
+					<add key="CalKit" value="NTYPE85032F"/>
+					<add key="NAIFBandwidthKHz" value="1"/>
+					<add key="NASweepTime" value="1"/>
+					<add key="NAStartFrequency" value="772"/>
+					<add key="NAStopFrequency" value="792"/>
+					<add key="NAPowerPort1" value="-30"/>
+					<add key="NAStatusFile" value="NA_PORT1_MUSTANG_RX"/>
+					<add key="InputCable" value="NA Port 1"/>
+					<add key="OutputCable" value="NA Port 2"/>
+					<add key="Result" resultkey="THR_MKR" limitkey="S11_CHECK" limitype="numeric"/>
+				</Measurement>
+			</MeasurementList>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

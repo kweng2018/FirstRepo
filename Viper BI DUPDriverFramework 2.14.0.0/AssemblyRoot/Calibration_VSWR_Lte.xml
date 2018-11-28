@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Sequence type="Test">
+	<add key="SequenceName" value="VSWR_CAL"></add>
+	<add key="LimitFile" value="Calibration_VSWR_Lte_Limits.xml"></add>
+	<add key="CalDataFile" value="Bench_Calibration_Mustang_VSWR_Data.xml"></add>
+	<InstrumentList>
+		<InstrumentID>PowerSupply_24V</InstrumentID>
+		<InstrumentID>DigitalSignalGeneratorAndAnalyzer1</InstrumentID>
+		<InstrumentID>RFSwitchBox2</InstrumentID>
+		<InstrumentID>I2CAdapter</InstrumentID>
+	</InstrumentList>
+	<PreTestSetup>
+		<PSID>PowerSupply_24V</PSID>
+		<PSCurrent>20</PSCurrent>
+		<PSVoltage>24</PSVoltage>
+		<DefaultIP>192.168.99.50</DefaultIP>
+		<SaveFlightRAMRecorder>false</SaveFlightRAMRecorder>
+	</PreTestSetup>
+	<TestGroupList>
+		<TestGroup type="VSWR_MUSTANG_CAL" name="VSWR_CAL">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="Source" value="DigitalSignalGeneratorAndAnalyzer1"/>
+			<add key="SwitchBox" value="RFSwitchBox2"/>
+			<add key="TestSignal" value="C:\TRDUWaveforms\TM1_1_10_820_unfiltered.cpr"/>
+			<add key="FreqList" value="751"/>
+			<add key="OutputPower" value="46.5"/>
+			<add key="LoadSwitchChannelList" value="4,1,2,3"/>
+			<add key="LoadNames" value="LOAD_2DB,LOAD_6DB,LOAD_10DB,LOAD_14DB"/>
+			<add key="IdealLoads" value="0,-6,-9.5,-14"/>
+			<add key="Result" resultkey="VSWRCAL_A2D" limitkey="VSWRCAL_A2D_1" limitype="numeric"/>
+			<add key="Result" resultkey="VSWRCAL_RANGE" limitkey="VSWRCAL_RANGE" limitype="numeric"/>
+			<add key="Result" resultkey="LNA_EEPROM" limitkey="PASS_FAIL" limitype="string"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_I2C" name="I2C">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="I2C" value="I2CAdapter"/>
+		</TestGroup>
+		<TestGroup type="MUSTANG_AISG" name="AISG">
+			<add key="PS" value="PowerSupply_24V"/>
+			<add key="RS485" value="COM1"/>
+		</TestGroup>
+	</TestGroupList>
+</Sequence>

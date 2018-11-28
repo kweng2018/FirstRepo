@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<Limits version="1.0.0" name="VSWR_TRDU_2100_Limits">
+	<Limit type="string">
+		<Name>PASS_FAIL</Name>
+		<Limit>PASS</Limit>
+		<Unit>PASS/FAIL</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VSWRCAL_A2D_1</Name>
+		<UpperLimit>4095</UpperLimit>
+		<LowerLimit>0</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+	<Limit type="numeric">
+		<Name>VSWRCAL_RANGE</Name>
+		<UpperLimit>2000</UpperLimit>
+		<LowerLimit>1000</LowerLimit>
+		<Unit>DW</Unit>
+	</Limit>
+</Limits>
